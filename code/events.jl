@@ -34,6 +34,10 @@ light_mass_events = [
     "190425", "190426_152155", "190814"
 ]
 
-GWTC2_events_low_spin = setdiff(setdiff(GWTC2_events, high_FAR_event), high_spin_events)
+GWTC2_events_low_FAR = setdiff(GWTC2_events, high_FAR_event);
+
+GWTC2_events_low_spin = setdiff(GWTC2_events_low_FAR, high_spin_events)
 
 GWTC2_events_low_spin_heavy_mass = setdiff(GWTC2_events_low_spin, light_mass_events);
+
+GWTC2_events_heavy_mass = setdiff(GWTC2_events_low_FAR, light_mass_events);
