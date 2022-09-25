@@ -1,0 +1,1289 @@
+%merlin.mbs apsrev4-1.bst 2010-07-25 4.21a (PWD, AO, DPC) hacked
+%Control: key (0)
+%Control: author (0) dotless jnrlst
+%Control: editor formatted (1) identically to author
+%Control: production of article title (0) allowed
+%Control: page (1) range
+%Control: year (0) verbatim
+%Control: production of eprint (0) enabled
+\begin{thebibliography}{88}%
+\makeatletter
+\providecommand \@ifxundefined [1]{%
+ \@ifx{#1\undefined}
+}%
+\providecommand \@ifnum [1]{%
+ \ifnum #1\expandafter \@firstoftwo
+ \else \expandafter \@secondoftwo
+ \fi
+}%
+\providecommand \@ifx [1]{%
+ \ifx #1\expandafter \@firstoftwo
+ \else \expandafter \@secondoftwo
+ \fi
+}%
+\providecommand \natexlab [1]{#1}%
+\providecommand \enquote  [1]{``#1''}%
+\providecommand \bibnamefont  [1]{#1}%
+\providecommand \bibfnamefont [1]{#1}%
+\providecommand \citenamefont [1]{#1}%
+\providecommand \href@noop [0]{\@secondoftwo}%
+\providecommand \href [0]{\begingroup \@sanitize@url \@href}%
+\providecommand \@href[1]{\@@startlink{#1}\@@href}%
+\providecommand \@@href[1]{\endgroup#1\@@endlink}%
+\providecommand \@sanitize@url [0]{\catcode `\\12\catcode `\$12\catcode
+  `\&12\catcode `\#12\catcode `\^12\catcode `\_12\catcode `\%12\relax}%
+\providecommand \@@startlink[1]{}%
+\providecommand \@@endlink[0]{}%
+\providecommand \url  [0]{\begingroup\@sanitize@url \@url }%
+\providecommand \@url [1]{\endgroup\@href {#1}{\urlprefix }}%
+\providecommand \urlprefix  [0]{URL }%
+\providecommand \Eprint [0]{\href }%
+\providecommand \doibase [0]{http://dx.doi.org/}%
+\providecommand \selectlanguage [0]{\@gobble}%
+\providecommand \bibinfo  [0]{\@secondoftwo}%
+\providecommand \bibfield  [0]{\@secondoftwo}%
+\providecommand \translation [1]{[#1]}%
+\providecommand \BibitemOpen [0]{}%
+\providecommand \bibitemStop [0]{}%
+\providecommand \bibitemNoStop [0]{.\EOS\space}%
+\providecommand \EOS [0]{\spacefactor3000\relax}%
+\providecommand \BibitemShut  [1]{\csname bibitem#1\endcsname}%
+\let\auto@bib@innerbib\@empty
+%</preamble>
+\bibitem [{\citenamefont {Abbott}\ \emph
+  {et~al.}(2016{\natexlab{a}})\citenamefont {Abbott} \emph
+  {et~al.}}]{Abbott:2016blz}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {B.~P.}\ \bibnamefont
+  {Abbott}} \emph {et~al.} (\bibinfo {collaboration} {Virgo, LIGO
+  Scientific}),\ }\bibfield  {title} {\enquote {\bibinfo {title} {{Observation
+  of Gravitational Waves from a Binary Black Hole Merger}},}\ }\href {\doibase
+  10.1103/PhysRevLett.116.061102} {\bibfield  {journal} {\bibinfo  {journal}
+  {Phys. Rev. Lett.}\ }\textbf {\bibinfo {volume} {116}},\ \bibinfo {pages}
+  {061102} (\bibinfo {year} {2016}{\natexlab{a}})},\ \Eprint
+  {http://arxiv.org/abs/1602.03837} {arXiv:1602.03837 [gr-qc]} \BibitemShut
+  {NoStop}%
+%%CITATION = ARXIV:1602.03837;%%
+\bibitem [{\citenamefont {Abbott}\ \emph
+  {et~al.}(2016{\natexlab{b}})\citenamefont {Abbott} \emph
+  {et~al.}}]{Abbott:2016nmj}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {B.~P.}\ \bibnamefont
+  {Abbott}} \emph {et~al.} (\bibinfo {collaboration} {Virgo, LIGO
+  Scientific}),\ }\bibfield  {title} {\enquote {\bibinfo {title} {{GW151226:
+  Observation of Gravitational Waves from a 22-Solar-Mass Binary Black Hole
+  Coalescence}},}\ }\href {\doibase 10.1103/PhysRevLett.116.241103} {\bibfield
+  {journal} {\bibinfo  {journal} {Phys. Rev. Lett.}\ }\textbf {\bibinfo
+  {volume} {116}},\ \bibinfo {pages} {241103} (\bibinfo {year}
+  {2016}{\natexlab{b}})},\ \Eprint {http://arxiv.org/abs/1606.04855}
+  {arXiv:1606.04855 [gr-qc]} \BibitemShut {NoStop}%
+%%CITATION = ARXIV:1606.04855;%%
+\bibitem [{\citenamefont {Abbott}\ \emph
+  {et~al.}(2016{\natexlab{c}})\citenamefont {Abbott} \emph
+  {et~al.}}]{TheLIGOScientific:2016pea}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {B.~P.}\ \bibnamefont
+  {Abbott}} \emph {et~al.} (\bibinfo {collaboration} {Virgo, LIGO
+  Scientific}),\ }\bibfield  {title} {\enquote {\bibinfo {title} {{Binary Black
+  Hole Mergers in the first Advanced LIGO Observing Run}},}\ }\href {\doibase
+  10.1103/PhysRevX.6.041015} {\bibfield  {journal} {\bibinfo  {journal} {Phys.
+  Rev.}\ }\textbf {\bibinfo {volume} {X6}},\ \bibinfo {pages} {041015}
+  (\bibinfo {year} {2016}{\natexlab{c}})},\ \Eprint
+  {http://arxiv.org/abs/1606.04856} {arXiv:1606.04856 [gr-qc]} \BibitemShut
+  {NoStop}%
+%%CITATION = ARXIV:1606.04856;%%
+\bibitem [{\citenamefont {Abbott}\ \emph
+  {et~al.}(2017{\natexlab{a}})\citenamefont {Abbott} \emph
+  {et~al.}}]{Abbott:2017vtc}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {B.~P.}\ \bibnamefont
+  {Abbott}} \emph {et~al.} (\bibinfo {collaboration} {VIRGO, LIGO
+  Scientific}),\ }\bibfield  {title} {\enquote {\bibinfo {title} {{GW170104:
+  Observation of a 50-Solar-Mass Binary Black Hole Coalescence at Redshift
+  0.2}},}\ }\href {\doibase 10.1103/PhysRevLett.118.221101} {\bibfield
+  {journal} {\bibinfo  {journal} {Phys. Rev. Lett.}\ }\textbf {\bibinfo
+  {volume} {118}},\ \bibinfo {pages} {221101} (\bibinfo {year}
+  {2017}{\natexlab{a}})},\ \Eprint {http://arxiv.org/abs/1706.01812}
+  {arXiv:1706.01812 [gr-qc]} \BibitemShut {NoStop}%
+%%CITATION = ARXIV:1706.01812;%%
+\bibitem [{\citenamefont {Abbott}\ \emph
+  {et~al.}(2017{\natexlab{b}})\citenamefont {Abbott} \emph
+  {et~al.}}]{Abbott:2017gyy}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {B.~P.}\ \bibnamefont
+  {Abbott}} \emph {et~al.} (\bibinfo {collaboration} {Virgo, LIGO
+  Scientific}),\ }\bibfield  {title} {\enquote {\bibinfo {title} {{GW170608:
+  Observation of a 19-solar-mass Binary Black Hole Coalescence}},}\ }\href
+  {\doibase 10.3847/2041-8213/aa9f0c} {\bibfield  {journal} {\bibinfo
+  {journal} {Astrophys. J.}\ }\textbf {\bibinfo {volume} {851}},\ \bibinfo
+  {pages} {L35} (\bibinfo {year} {2017}{\natexlab{b}})},\ \Eprint
+  {http://arxiv.org/abs/1711.05578} {arXiv:1711.05578 [astro-ph.HE]}
+  \BibitemShut {NoStop}%
+%%CITATION = ARXIV:1711.05578;%%
+\bibitem [{\citenamefont {Abbott}\ \emph
+  {et~al.}(2017{\natexlab{c}})\citenamefont {Abbott} \emph
+  {et~al.}}]{Abbott:2017oio}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {B.~P.}\ \bibnamefont
+  {Abbott}} \emph {et~al.} (\bibinfo {collaboration} {Virgo, LIGO
+  Scientific}),\ }\bibfield  {title} {\enquote {\bibinfo {title} {{GW170814: A
+  Three-Detector Observation of Gravitational Waves from a Binary Black Hole
+  Coalescence}},}\ }\href {\doibase 10.1103/PhysRevLett.119.141101} {\bibfield
+  {journal} {\bibinfo  {journal} {Phys. Rev. Lett.}\ }\textbf {\bibinfo
+  {volume} {119}},\ \bibinfo {pages} {141101} (\bibinfo {year}
+  {2017}{\natexlab{c}})},\ \Eprint {http://arxiv.org/abs/1709.09660}
+  {arXiv:1709.09660 [gr-qc]} \BibitemShut {NoStop}%
+%%CITATION = ARXIV:1709.09660;%%
+\bibitem [{\citenamefont {Abbott}\ \emph
+  {et~al.}(2018{\natexlab{a}})\citenamefont {Abbott} \emph
+  {et~al.}}]{LIGOScientific:2018mvr}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {B.~P.}\ \bibnamefont
+  {Abbott}} \emph {et~al.} (\bibinfo {collaboration} {LIGO Scientific,
+  Virgo}),\ }\bibfield  {title} {\enquote {\bibinfo {title} {{GWTC-1: A
+  Gravitational-Wave Transient Catalog of Compact Binary Mergers Observed by
+  LIGO and Virgo during the First and Second Observing Runs}},}\ }\href@noop {}
+  {\  (\bibinfo {year} {2018}{\natexlab{a}})},\ \Eprint
+  {http://arxiv.org/abs/1811.12907} {arXiv:1811.12907 [astro-ph.HE]}
+  \BibitemShut {NoStop}%
+%%CITATION = ARXIV:1811.12907;%%
+\bibitem [{\citenamefont {Bird}\ \emph {et~al.}(2016)\citenamefont {Bird},
+  \citenamefont {Cholis}, \citenamefont {Muñoz}, \citenamefont {Ali-Haïmoud},
+  \citenamefont {Kamionkowski}, \citenamefont {Kovetz}, \citenamefont
+  {Raccanelli},\ and\ \citenamefont {Riess}}]{Bird:2016dcv}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {Simeon}\ \bibnamefont
+  {Bird}}, \bibinfo {author} {\bibfnamefont {Ilias}\ \bibnamefont {Cholis}},
+  \bibinfo {author} {\bibfnamefont {Julian~B.}\ \bibnamefont {Muñoz}},
+  \bibinfo {author} {\bibfnamefont {Yacine}\ \bibnamefont {Ali-Haïmoud}},
+  \bibinfo {author} {\bibfnamefont {Marc}\ \bibnamefont {Kamionkowski}},
+  \bibinfo {author} {\bibfnamefont {Ely~D.}\ \bibnamefont {Kovetz}}, \bibinfo
+  {author} {\bibfnamefont {Alvise}\ \bibnamefont {Raccanelli}}, \ and\ \bibinfo
+  {author} {\bibfnamefont {Adam~G.}\ \bibnamefont {Riess}},\ }\bibfield
+  {title} {\enquote {\bibinfo {title} {{Did LIGO detect dark matter?}}}\ }\href
+  {\doibase 10.1103/PhysRevLett.116.201301} {\bibfield  {journal} {\bibinfo
+  {journal} {Phys. Rev. Lett.}\ }\textbf {\bibinfo {volume} {116}},\ \bibinfo
+  {pages} {201301} (\bibinfo {year} {2016})},\ \Eprint
+  {http://arxiv.org/abs/1603.00464} {arXiv:1603.00464 [astro-ph.CO]}
+  \BibitemShut {NoStop}%
+%%CITATION = ARXIV:1603.00464;%%
+\bibitem [{\citenamefont {Sasaki}\ \emph {et~al.}(2016)\citenamefont {Sasaki},
+  \citenamefont {Suyama}, \citenamefont {Tanaka},\ and\ \citenamefont
+  {Yokoyama}}]{Sasaki:2016jop}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {Misao}\ \bibnamefont
+  {Sasaki}}, \bibinfo {author} {\bibfnamefont {Teruaki}\ \bibnamefont
+  {Suyama}}, \bibinfo {author} {\bibfnamefont {Takahiro}\ \bibnamefont
+  {Tanaka}}, \ and\ \bibinfo {author} {\bibfnamefont {Shuichiro}\ \bibnamefont
+  {Yokoyama}},\ }\bibfield  {title} {\enquote {\bibinfo {title} {{Primordial
+  Black Hole Scenario for the Gravitational-Wave Event GW150914}},}\ }\href
+  {\doibase 10.1103/PhysRevLett.117.061101} {\bibfield  {journal} {\bibinfo
+  {journal} {Phys. Rev. Lett.}\ }\textbf {\bibinfo {volume} {117}},\ \bibinfo
+  {pages} {061101} (\bibinfo {year} {2016})},\ \Eprint
+  {http://arxiv.org/abs/1603.08338} {arXiv:1603.08338 [astro-ph.CO]}
+  \BibitemShut {NoStop}%
+%%CITATION = ARXIV:1603.08338;%%
+\bibitem [{\citenamefont {Chen}\ and\ \citenamefont
+  {Huang}(2018)}]{Chen:2018czv}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {Zu-Cheng}\
+  \bibnamefont {Chen}}\ and\ \bibinfo {author} {\bibfnamefont {Qing-Guo}\
+  \bibnamefont {Huang}},\ }\bibfield  {title} {\enquote {\bibinfo {title}
+  {{Merger Rate Distribution of Primordial-Black-Hole Binaries}},}\ }\href
+  {\doibase 10.3847/1538-4357/aad6e2} {\bibfield  {journal} {\bibinfo
+  {journal} {Astrophys. J.}\ }\textbf {\bibinfo {volume} {864}},\ \bibinfo
+  {pages} {61} (\bibinfo {year} {2018})},\ \Eprint
+  {http://arxiv.org/abs/1801.10327} {arXiv:1801.10327 [astro-ph.CO]}
+  \BibitemShut {NoStop}%
+%%CITATION = ARXIV:1801.10327;%%
+\bibitem [{\citenamefont {Fishbach}\ \emph {et~al.}(2017)\citenamefont
+  {Fishbach}, \citenamefont {Holz},\ and\ \citenamefont
+  {Farr}}]{Fishbach:2017dwv}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {Maya}\ \bibnamefont
+  {Fishbach}}, \bibinfo {author} {\bibfnamefont {Daniel~E.}\ \bibnamefont
+  {Holz}}, \ and\ \bibinfo {author} {\bibfnamefont {Ben}\ \bibnamefont
+  {Farr}},\ }\bibfield  {title} {\enquote {\bibinfo {title} {{Are LIGO's Black
+  Holes Made From Smaller Black Holes?}}}\ }\href {\doibase
+  10.3847/2041-8213/aa7045} {\bibfield  {journal} {\bibinfo  {journal}
+  {Astrophys. J.}\ }\textbf {\bibinfo {volume} {840}},\ \bibinfo {pages} {L24}
+  (\bibinfo {year} {2017})},\ \Eprint {http://arxiv.org/abs/1703.06869}
+  {arXiv:1703.06869 [astro-ph.HE]} \BibitemShut {NoStop}%
+%%CITATION = ARXIV:1703.06869;%%
+\bibitem [{\citenamefont {Clesse}\ and\ \citenamefont
+  {García-Bellido}(2017)}]{Clesse:2016vqa}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {Sebastien}\
+  \bibnamefont {Clesse}}\ and\ \bibinfo {author} {\bibfnamefont {Juan}\
+  \bibnamefont {García-Bellido}},\ }\bibfield  {title} {\enquote {\bibinfo
+  {title} {{The clustering of massive Primordial Black Holes as Dark Matter:
+  measuring their mass distribution with Advanced LIGO}},}\ }\href {\doibase
+  10.1016/j.dark.2016.10.002} {\bibfield  {journal} {\bibinfo  {journal} {Phys.
+  Dark Univ.}\ }\textbf {\bibinfo {volume} {15}},\ \bibinfo {pages} {142--147}
+  (\bibinfo {year} {2017})},\ \Eprint {http://arxiv.org/abs/1603.05234}
+  {arXiv:1603.05234 [astro-ph.CO]} \BibitemShut {NoStop}%
+%%CITATION = ARXIV:1603.05234;%%
+\bibitem [{\citenamefont {Antonini}\ and\ \citenamefont
+  {Rasio}(2016)}]{Antonini:2016gqe}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {Fabio}\ \bibnamefont
+  {Antonini}}\ and\ \bibinfo {author} {\bibfnamefont {Frederic~A.}\
+  \bibnamefont {Rasio}},\ }\bibfield  {title} {\enquote {\bibinfo {title}
+  {{Merging black hole binaries in galactic nuclei: implications for
+  advanced-LIGO detections}},}\ }\href {\doibase 10.3847/0004-637X/831/2/187}
+  {\bibfield  {journal} {\bibinfo  {journal} {Astrophys. J.}\ }\textbf
+  {\bibinfo {volume} {831}},\ \bibinfo {pages} {187} (\bibinfo {year}
+  {2016})},\ \Eprint {http://arxiv.org/abs/1606.04889} {arXiv:1606.04889
+  [astro-ph.HE]} \BibitemShut {NoStop}%
+%%CITATION = ARXIV:1606.04889;%%
+\bibitem [{\citenamefont {Inayoshi}\ \emph {et~al.}(2017)\citenamefont
+  {Inayoshi}, \citenamefont {Hirai}, \citenamefont {Kinugawa},\ and\
+  \citenamefont {Hotokezaka}}]{Inayoshi:2017mrs}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {Kohei}\ \bibnamefont
+  {Inayoshi}}, \bibinfo {author} {\bibfnamefont {Ryosuke}\ \bibnamefont
+  {Hirai}}, \bibinfo {author} {\bibfnamefont {Tomoya}\ \bibnamefont
+  {Kinugawa}}, \ and\ \bibinfo {author} {\bibfnamefont {Kenta}\ \bibnamefont
+  {Hotokezaka}},\ }\bibfield  {title} {\enquote {\bibinfo {title} {{Formation
+  pathway of Population III coalescing binary black holes through stable mass
+  transfer}},}\ }\href {\doibase 10.1093/mnras/stx757} {\bibfield  {journal}
+  {\bibinfo  {journal} {Mon. Not. Roy. Astron. Soc.}\ }\textbf {\bibinfo
+  {volume} {468}},\ \bibinfo {pages} {5020--5032} (\bibinfo {year} {2017})},\
+  \Eprint {http://arxiv.org/abs/1701.04823} {arXiv:1701.04823 [astro-ph.HE]}
+  \BibitemShut {NoStop}%
+%%CITATION = ARXIV:1701.04823;%%
+\bibitem [{\citenamefont {Ali-Haïmoud}\ \emph {et~al.}(2017)\citenamefont
+  {Ali-Haïmoud}, \citenamefont {Kovetz},\ and\ \citenamefont
+  {Kamionkowski}}]{Ali-Haimoud:2017rtz}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {Yacine}\ \bibnamefont
+  {Ali-Haïmoud}}, \bibinfo {author} {\bibfnamefont {Ely~D.}\ \bibnamefont
+  {Kovetz}}, \ and\ \bibinfo {author} {\bibfnamefont {Marc}\ \bibnamefont
+  {Kamionkowski}},\ }\bibfield  {title} {\enquote {\bibinfo {title} {{Merger
+  rate of primordial black-hole binaries}},}\ }\href {\doibase
+  10.1103/PhysRevD.96.123523} {\bibfield  {journal} {\bibinfo  {journal} {Phys.
+  Rev.}\ }\textbf {\bibinfo {volume} {D96}},\ \bibinfo {pages} {123523}
+  (\bibinfo {year} {2017})},\ \Eprint {http://arxiv.org/abs/1709.06576}
+  {arXiv:1709.06576 [astro-ph.CO]} \BibitemShut {NoStop}%
+%%CITATION = ARXIV:1709.06576;%%
+\bibitem [{\citenamefont {Perna}\ \emph {et~al.}(2019)\citenamefont {Perna},
+  \citenamefont {Wang}, \citenamefont {Leigh},\ and\ \citenamefont
+  {Cantiello}}]{Perna:2019axr}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {Rosalba}\ \bibnamefont
+  {Perna}}, \bibinfo {author} {\bibfnamefont {Yi-Han}\ \bibnamefont {Wang}},
+  \bibinfo {author} {\bibfnamefont {Nathan}\ \bibnamefont {Leigh}}, \ and\
+  \bibinfo {author} {\bibfnamefont {Matteo}\ \bibnamefont {Cantiello}},\
+  }\bibfield  {title} {\enquote {\bibinfo {title} {{On the Apparent Dichotomy
+  Between the Masses of Black Holes Inferred via X-rays and via Gravitational
+  Waves}},}\ }\href@noop {} {\  (\bibinfo {year} {2019})},\ \Eprint
+  {http://arxiv.org/abs/1901.03345} {arXiv:1901.03345 [astro-ph.HE]}
+  \BibitemShut {NoStop}%
+%%CITATION = ARXIV:1901.03345;%%
+\bibitem [{\citenamefont {Kavanagh}\ \emph {et~al.}(2018)\citenamefont
+  {Kavanagh}, \citenamefont {Gaggero},\ and\ \citenamefont
+  {Bertone}}]{Kavanagh:2018ggo}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {Bradley~J.}\
+  \bibnamefont {Kavanagh}}, \bibinfo {author} {\bibfnamefont {Daniele}\
+  \bibnamefont {Gaggero}}, \ and\ \bibinfo {author} {\bibfnamefont
+  {Gianfranco}\ \bibnamefont {Bertone}},\ }\bibfield  {title} {\enquote
+  {\bibinfo {title} {{Merger rate of a subdominant population of primordial
+  black holes}},}\ }\href {\doibase 10.1103/PhysRevD.98.023536} {\bibfield
+  {journal} {\bibinfo  {journal} {Phys. Rev.}\ }\textbf {\bibinfo {volume}
+  {D98}},\ \bibinfo {pages} {023536} (\bibinfo {year} {2018})},\ \Eprint
+  {http://arxiv.org/abs/1805.09034} {arXiv:1805.09034 [astro-ph.CO]}
+  \BibitemShut {NoStop}%
+%%CITATION = ARXIV:1805.09034;%%
+\bibitem [{\citenamefont {Rodriguez}\ \emph {et~al.}(2015)\citenamefont
+  {Rodriguez}, \citenamefont {Morscher}, \citenamefont {Pattabiraman},
+  \citenamefont {Chatterjee}, \citenamefont {Haster},\ and\ \citenamefont
+  {Rasio}}]{Rodriguez:2015oxa}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {Carl~L.}\ \bibnamefont
+  {Rodriguez}}, \bibinfo {author} {\bibfnamefont {Meagan}\ \bibnamefont
+  {Morscher}}, \bibinfo {author} {\bibfnamefont {Bharath}\ \bibnamefont
+  {Pattabiraman}}, \bibinfo {author} {\bibfnamefont {Sourav}\ \bibnamefont
+  {Chatterjee}}, \bibinfo {author} {\bibfnamefont {Carl-Johan}\ \bibnamefont
+  {Haster}}, \ and\ \bibinfo {author} {\bibfnamefont {Frederic~A.}\
+  \bibnamefont {Rasio}},\ }\bibfield  {title} {\enquote {\bibinfo {title}
+  {{Binary Black Hole Mergers from Globular Clusters: Implications for Advanced
+  LIGO}},}\ }\href {\doibase 10.1103/PhysRevLett.116.029901,
+  10.1103/PhysRevLett.115.051101} {\bibfield  {journal} {\bibinfo  {journal}
+  {Phys. Rev. Lett.}\ }\textbf {\bibinfo {volume} {115}},\ \bibinfo {pages}
+  {051101} (\bibinfo {year} {2015})},\ \bibinfo {note} {[Erratum: Phys. Rev.
+  Lett.116,no.2,029901(2016)]},\ \Eprint {http://arxiv.org/abs/1505.00792}
+  {arXiv:1505.00792 [astro-ph.HE]} \BibitemShut {NoStop}%
+%%CITATION = ARXIV:1505.00792;%%
+\bibitem [{\citenamefont {Rodriguez}\ \emph {et~al.}(2016)\citenamefont
+  {Rodriguez}, \citenamefont {Chatterjee},\ and\ \citenamefont
+  {Rasio}}]{Rodriguez:2016kxx}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {Carl~L.}\ \bibnamefont
+  {Rodriguez}}, \bibinfo {author} {\bibfnamefont {Sourav}\ \bibnamefont
+  {Chatterjee}}, \ and\ \bibinfo {author} {\bibfnamefont {Frederic~A.}\
+  \bibnamefont {Rasio}},\ }\bibfield  {title} {\enquote {\bibinfo {title}
+  {{Binary Black Hole Mergers from Globular Clusters: Masses, Merger Rates, and
+  the Impact of Stellar Evolution}},}\ }\href {\doibase
+  10.1103/PhysRevD.93.084029} {\bibfield  {journal} {\bibinfo  {journal} {Phys.
+  Rev.}\ }\textbf {\bibinfo {volume} {D93}},\ \bibinfo {pages} {084029}
+  (\bibinfo {year} {2016})},\ \Eprint {http://arxiv.org/abs/1602.02444}
+  {arXiv:1602.02444 [astro-ph.HE]} \BibitemShut {NoStop}%
+%%CITATION = ARXIV:1602.02444;%%
+\bibitem [{\citenamefont {Park}\ \emph {et~al.}(2017)\citenamefont {Park},
+  \citenamefont {Kim}, \citenamefont {Lee}, \citenamefont {Bae},\ and\
+  \citenamefont {Belczynski}}]{Park:2017zgj}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {Dawoo}\ \bibnamefont
+  {Park}}, \bibinfo {author} {\bibfnamefont {Chunglee}\ \bibnamefont {Kim}},
+  \bibinfo {author} {\bibfnamefont {Hyung~Mok}\ \bibnamefont {Lee}}, \bibinfo
+  {author} {\bibfnamefont {Yeong-Bok}\ \bibnamefont {Bae}}, \ and\ \bibinfo
+  {author} {\bibfnamefont {Krzysztof}\ \bibnamefont {Belczynski}},\ }\bibfield
+  {title} {\enquote {\bibinfo {title} {{Black Hole Binaries Dynamically Formed
+  in Globular Clusters}},}\ }\href {\doibase 10.1093/mnras/stx1015} {\bibfield
+  {journal} {\bibinfo  {journal} {Mon. Not. Roy. Astron. Soc.}\ }\textbf
+  {\bibinfo {volume} {469}},\ \bibinfo {pages} {4665--4674} (\bibinfo {year}
+  {2017})},\ \Eprint {http://arxiv.org/abs/1703.01568} {arXiv:1703.01568
+  [astro-ph.HE]} \BibitemShut {NoStop}%
+%%CITATION = ARXIV:1703.01568;%%
+\bibitem [{\citenamefont {Belczynski}\ \emph {et~al.}(2014)\citenamefont
+  {Belczynski}, \citenamefont {Buonanno}, \citenamefont {Cantiello},
+  \citenamefont {Fryer}, \citenamefont {Holz}, \citenamefont {Mandel},
+  \citenamefont {Miller},\ and\ \citenamefont {Walczak}}]{Belczynski:2014iua}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {Krzysztof}\
+  \bibnamefont {Belczynski}}, \bibinfo {author} {\bibfnamefont {Alessandra}\
+  \bibnamefont {Buonanno}}, \bibinfo {author} {\bibfnamefont {Matteo}\
+  \bibnamefont {Cantiello}}, \bibinfo {author} {\bibfnamefont {Chris~L.}\
+  \bibnamefont {Fryer}}, \bibinfo {author} {\bibfnamefont {Daniel~E.}\
+  \bibnamefont {Holz}}, \bibinfo {author} {\bibfnamefont {Ilya}\ \bibnamefont
+  {Mandel}}, \bibinfo {author} {\bibfnamefont {M.~Coleman}\ \bibnamefont
+  {Miller}}, \ and\ \bibinfo {author} {\bibfnamefont {Marek}\ \bibnamefont
+  {Walczak}},\ }\bibfield  {title} {\enquote {\bibinfo {title} {{The Formation
+  and Gravitational-Wave Detection of Massive Stellar Black-Hole Binaries}},}\
+  }\href {\doibase 10.1088/0004-637X/789/2/120} {\bibfield  {journal} {\bibinfo
+   {journal} {Astrophys. J.}\ }\textbf {\bibinfo {volume} {789}},\ \bibinfo
+  {pages} {120} (\bibinfo {year} {2014})},\ \Eprint
+  {http://arxiv.org/abs/1403.0677} {arXiv:1403.0677 [astro-ph.HE]} \BibitemShut
+  {NoStop}%
+%%CITATION = ARXIV:1403.0677;%%
+\bibitem [{\citenamefont {Belczynski}\ \emph {et~al.}(2016)\citenamefont
+  {Belczynski}, \citenamefont {Holz}, \citenamefont {Bulik},\ and\
+  \citenamefont {O'Shaughnessy}}]{Belczynski:2016obo}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {Krzysztof}\
+  \bibnamefont {Belczynski}}, \bibinfo {author} {\bibfnamefont {Daniel~E.}\
+  \bibnamefont {Holz}}, \bibinfo {author} {\bibfnamefont {Tomasz}\ \bibnamefont
+  {Bulik}}, \ and\ \bibinfo {author} {\bibfnamefont {Richard}\ \bibnamefont
+  {O'Shaughnessy}},\ }\bibfield  {title} {\enquote {\bibinfo {title} {{The
+  first gravitational-wave source from the isolated evolution of two 40-100
+  Msun stars}},}\ }\href {\doibase 10.1038/nature18322} {\bibfield  {journal}
+  {\bibinfo  {journal} {Nature}\ }\textbf {\bibinfo {volume} {534}},\ \bibinfo
+  {pages} {512} (\bibinfo {year} {2016})},\ \Eprint
+  {http://arxiv.org/abs/1602.04531} {arXiv:1602.04531 [astro-ph.HE]}
+  \BibitemShut {NoStop}%
+%%CITATION = ARXIV:1602.04531;%%
+\bibitem [{\citenamefont {Woosley}(2016)}]{Woosley:2016nnw}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {S.~E.}\ \bibnamefont
+  {Woosley}},\ }\bibfield  {title} {\enquote {\bibinfo {title} {{The Progenitor
+  of Gw150914}},}\ }\href {\doibase 10.3847/2041-8205/824/1/L10} {\bibfield
+  {journal} {\bibinfo  {journal} {Astrophys. J.}\ }\textbf {\bibinfo {volume}
+  {824}},\ \bibinfo {pages} {L10} (\bibinfo {year} {2016})},\ \Eprint
+  {http://arxiv.org/abs/1603.00511} {arXiv:1603.00511 [astro-ph.HE]}
+  \BibitemShut {NoStop}%
+%%CITATION = ARXIV:1603.00511;%%
+\bibitem [{\citenamefont {Rodriguez}\ and\ \citenamefont
+  {Loeb}(2018)}]{Rodriguez:2018rmd}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {Carl~L.}\ \bibnamefont
+  {Rodriguez}}\ and\ \bibinfo {author} {\bibfnamefont {Abraham}\ \bibnamefont
+  {Loeb}},\ }\bibfield  {title} {\enquote {\bibinfo {title} {{Redshift
+  Evolution of the Black Hole Merger Rate from Globular Clusters}},}\ }\href
+  {\doibase 10.3847/2041-8213/aae377} {\bibfield  {journal} {\bibinfo
+  {journal} {Astrophys. J.}\ }\textbf {\bibinfo {volume} {866}},\ \bibinfo
+  {pages} {L5} (\bibinfo {year} {2018})},\ \Eprint
+  {http://arxiv.org/abs/1809.01152} {arXiv:1809.01152 [astro-ph.HE]}
+  \BibitemShut {NoStop}%
+%%CITATION = ARXIV:1809.01152;%%
+\bibitem [{\citenamefont {Choksi}\ \emph {et~al.}(2018)\citenamefont {Choksi},
+  \citenamefont {Volonteri}, \citenamefont {Colpi}, \citenamefont {Gnedin},\
+  and\ \citenamefont {Li}}]{Choksi:2018jnq}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {Nick}\ \bibnamefont
+  {Choksi}}, \bibinfo {author} {\bibfnamefont {Marta}\ \bibnamefont
+  {Volonteri}}, \bibinfo {author} {\bibfnamefont {Monica}\ \bibnamefont
+  {Colpi}}, \bibinfo {author} {\bibfnamefont {Oleg~Y.}\ \bibnamefont {Gnedin}},
+  \ and\ \bibinfo {author} {\bibfnamefont {Hui}\ \bibnamefont {Li}},\
+  }\bibfield  {title} {\enquote {\bibinfo {title} {{The star clusters that make
+  black hole binaries across cosmic time}},}\ }\href@noop {} {\  (\bibinfo
+  {year} {2018})},\ \Eprint {http://arxiv.org/abs/1809.01164} {arXiv:1809.01164
+  [astro-ph.GA]} \BibitemShut {NoStop}%
+%%CITATION = ARXIV:1809.01164;%%
+\bibitem [{\citenamefont {{de Mink}}\ \emph {et~al.}(2010)\citenamefont {{de
+  Mink}}, \citenamefont {{Cantiello}}, \citenamefont {{Langer}},\ and\
+  \citenamefont {{Pols}}}]{2010AIPC.1314..291D}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {S.~E.}\ \bibnamefont
+  {{de Mink}}}, \bibinfo {author} {\bibfnamefont {M.}~\bibnamefont
+  {{Cantiello}}}, \bibinfo {author} {\bibfnamefont {N.}~\bibnamefont
+  {{Langer}}}, \ and\ \bibinfo {author} {\bibfnamefont {O.~R.}\ \bibnamefont
+  {{Pols}}},\ }\bibfield  {title} {\enquote {\bibinfo {title} {{Chemically
+  Homogeneous Evolution in Massive Binaries}},}\ }in\ \href {\doibase
+  10.1063/1.3536387} {\emph {\bibinfo {booktitle} {American Institute of
+  Physics Conference Series}}},\ \bibinfo {series} {American Institute of
+  Physics Conference Series}, Vol.\ \bibinfo {volume} {1314},\ \bibinfo
+  {editor} {edited by\ \bibinfo {editor} {\bibfnamefont {Vicky}\ \bibnamefont
+  {{Kalogera}}}\ and\ \bibinfo {editor} {\bibfnamefont {Marc}\ \bibnamefont
+  {{van der Sluys}}}}\ (\bibinfo {year} {2010})\ pp.\ \bibinfo {pages}
+  {291--296},\ \Eprint {http://arxiv.org/abs/1010.2177} {arXiv:1010.2177
+  [astro-ph.SR]} \BibitemShut {NoStop}%
+\bibitem [{\citenamefont {de~Mink}\ and\ \citenamefont
+  {Mandel}(2016)}]{deMink:2016vkw}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {S.~E.}\ \bibnamefont
+  {de~Mink}}\ and\ \bibinfo {author} {\bibfnamefont {I.}~\bibnamefont
+  {Mandel}},\ }\bibfield  {title} {\enquote {\bibinfo {title} {{The chemically
+  homogeneous evolutionary channel for binary black hole mergers: rates and
+  properties of gravitational-wave events detectable by advanced LIGO}},}\
+  }\href {\doibase 10.1093/mnras/stw1219} {\bibfield  {journal} {\bibinfo
+  {journal} {Mon. Not. Roy. Astron. Soc.}\ }\textbf {\bibinfo {volume} {460}},\
+  \bibinfo {pages} {3545--3553} (\bibinfo {year} {2016})},\ \Eprint
+  {http://arxiv.org/abs/1603.02291} {arXiv:1603.02291 [astro-ph.HE]}
+  \BibitemShut {NoStop}%
+%%CITATION = ARXIV:1603.02291;%%
+\bibitem [{\citenamefont {Wiktorowicz}\ \emph {et~al.}(2013)\citenamefont
+  {Wiktorowicz}, \citenamefont {Belczynski},\ and\ \citenamefont
+  {Maccarone}}]{Wiktorowicz:2013dua}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {Grzegorz}\
+  \bibnamefont {Wiktorowicz}}, \bibinfo {author} {\bibfnamefont {Krzysztof}\
+  \bibnamefont {Belczynski}}, \ and\ \bibinfo {author} {\bibfnamefont
+  {Thomas~J.}\ \bibnamefont {Maccarone}},\ }\bibfield  {title} {\enquote
+  {\bibinfo {title} {{Black Hole X-ray Transients: The Formation Puzzle}},}\
+  }\href@noop {} {\  (\bibinfo {year} {2013})},\ \Eprint
+  {http://arxiv.org/abs/1312.5924} {arXiv:1312.5924 [astro-ph.HE]} \BibitemShut
+  {NoStop}%
+%%CITATION = ARXIV:1312.5924;%%
+\bibitem [{\citenamefont {Casares}\ and\ \citenamefont
+  {Jonker}(2014)}]{Casares:2013tpa}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {J.}~\bibnamefont
+  {Casares}}\ and\ \bibinfo {author} {\bibfnamefont {P.~G.}\ \bibnamefont
+  {Jonker}},\ }\bibfield  {title} {\enquote {\bibinfo {title} {{Mass
+  Measurements of Stellar and Intermediate Mass Black-Holes}},}\ }\href
+  {\doibase 10.1007/s11214-013-0030-6} {\bibfield  {journal} {\bibinfo
+  {journal} {Space Sci. Rev.}\ }\textbf {\bibinfo {volume} {183}},\ \bibinfo
+  {pages} {223--252} (\bibinfo {year} {2014})},\ \Eprint
+  {http://arxiv.org/abs/1311.5118} {arXiv:1311.5118 [astro-ph.HE]} \BibitemShut
+  {NoStop}%
+%%CITATION = ARXIV:1311.5118;%%
+\bibitem [{\citenamefont {Corral-Santana}\ \emph {et~al.}(2013)\citenamefont
+  {Corral-Santana}, \citenamefont {Casares}, \citenamefont {Muñoz-Darias},
+  \citenamefont {Rodríguez-Gil}, \citenamefont {Shahbaz}, \citenamefont
+  {Torres}, \citenamefont {Zurita},\ and\ \citenamefont
+  {Tyndall}}]{Corral-Santana:2013uua}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {J.~M.}\ \bibnamefont
+  {Corral-Santana}}, \bibinfo {author} {\bibfnamefont {J.}~\bibnamefont
+  {Casares}}, \bibinfo {author} {\bibfnamefont {T.}~\bibnamefont
+  {Muñoz-Darias}}, \bibinfo {author} {\bibfnamefont {P.}~\bibnamefont
+  {Rodríguez-Gil}}, \bibinfo {author} {\bibfnamefont {T.}~\bibnamefont
+  {Shahbaz}}, \bibinfo {author} {\bibfnamefont {M.~A.~P.}\ \bibnamefont
+  {Torres}}, \bibinfo {author} {\bibfnamefont {C.}~\bibnamefont {Zurita}}, \
+  and\ \bibinfo {author} {\bibfnamefont {A.~A.}\ \bibnamefont {Tyndall}},\
+  }\bibfield  {title} {\enquote {\bibinfo {title} {{A Black Hole Nova Obscured
+  by an Inner Disk Torus}},}\ }\href {\doibase 10.1126/science.1228222}
+  {\bibfield  {journal} {\bibinfo  {journal} {Science}\ }\textbf {\bibinfo
+  {volume} {339}},\ \bibinfo {pages} {1048--1051} (\bibinfo {year} {2013})},\
+  \Eprint {http://arxiv.org/abs/1303.0034} {arXiv:1303.0034 [astro-ph.GA]}
+  \BibitemShut {NoStop}%
+%%CITATION = ARXIV:1303.0034;%%
+\bibitem [{\citenamefont {Corral-Santana}\ \emph {et~al.}(2016)\citenamefont
+  {Corral-Santana}, \citenamefont {Casares}, \citenamefont {Munoz-Darias},
+  \citenamefont {Bauer}, \citenamefont {Martinez-Pais},\ and\ \citenamefont
+  {Russell}}]{Corral-Santana:2015fud}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {Jesus~M.}\
+  \bibnamefont {Corral-Santana}}, \bibinfo {author} {\bibfnamefont {Jorge}\
+  \bibnamefont {Casares}}, \bibinfo {author} {\bibfnamefont {Teo}\ \bibnamefont
+  {Munoz-Darias}}, \bibinfo {author} {\bibfnamefont {Franz~E.}\ \bibnamefont
+  {Bauer}}, \bibinfo {author} {\bibfnamefont {Ignacio~G.}\ \bibnamefont
+  {Martinez-Pais}}, \ and\ \bibinfo {author} {\bibfnamefont {David~M.}\
+  \bibnamefont {Russell}},\ }\bibfield  {title} {\enquote {\bibinfo {title}
+  {{BlackCAT: A catalogue of stellar-mass black holes in X-ray transients}},}\
+  }\href {\doibase 10.1051/0004-6361/201527130} {\bibfield  {journal} {\bibinfo
+   {journal} {Astron. Astrophys.}\ }\textbf {\bibinfo {volume} {587}},\
+  \bibinfo {pages} {A61} (\bibinfo {year} {2016})},\ \Eprint
+  {http://arxiv.org/abs/1510.08869} {arXiv:1510.08869 [astro-ph.HE]}
+  \BibitemShut {NoStop}%
+%%CITATION = ARXIV:1510.08869;%%
+\bibitem [{\citenamefont {Hawking}(1971)}]{Hawking:1971ei}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {Stephen}\ \bibnamefont
+  {Hawking}},\ }\bibfield  {title} {\enquote {\bibinfo {title}
+  {{Gravitationally collapsed objects of very low mass}},}\ }\href@noop {}
+  {\bibfield  {journal} {\bibinfo  {journal} {Mon. Not. Roy. Astron. Soc.}\
+  }\textbf {\bibinfo {volume} {152}},\ \bibinfo {pages} {75} (\bibinfo {year}
+  {1971})}\BibitemShut {NoStop}%
+%%CITATION = MNRAA,152,75;%%
+\bibitem [{\citenamefont {Carr}\ and\ \citenamefont
+  {Hawking}(1974)}]{Carr:1974nx}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {Bernard~J.}\
+  \bibnamefont {Carr}}\ and\ \bibinfo {author} {\bibfnamefont {S.~W.}\
+  \bibnamefont {Hawking}},\ }\bibfield  {title} {\enquote {\bibinfo {title}
+  {{Black holes in the early Universe}},}\ }\href@noop {} {\bibfield  {journal}
+  {\bibinfo  {journal} {Mon. Not. Roy. Astron. Soc.}\ }\textbf {\bibinfo
+  {volume} {168}},\ \bibinfo {pages} {399--415} (\bibinfo {year}
+  {1974})}\BibitemShut {NoStop}%
+%%CITATION = MNRAA,168,399;%%
+\bibitem [{\citenamefont {Yuan}\ \emph
+  {et~al.}(2019{\natexlab{a}})\citenamefont {Yuan}, \citenamefont {Chen},\ and\
+  \citenamefont {Huang}}]{Yuan:2019udt}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {Chen}\ \bibnamefont
+  {Yuan}}, \bibinfo {author} {\bibfnamefont {Zu-Cheng}\ \bibnamefont {Chen}}, \
+  and\ \bibinfo {author} {\bibfnamefont {Qing-Guo}\ \bibnamefont {Huang}},\
+  }\bibfield  {title} {\enquote {\bibinfo {title} {{Probing
+  primordial–black-hole dark matter with scalar induced gravitational
+  waves}},}\ }\href {\doibase 10.1103/PhysRevD.100.081301} {\bibfield
+  {journal} {\bibinfo  {journal} {Phys. Rev.}\ }\textbf {\bibinfo {volume}
+  {D100}},\ \bibinfo {pages} {081301} (\bibinfo {year} {2019}{\natexlab{a}})},\
+  \Eprint {http://arxiv.org/abs/1906.11549} {arXiv:1906.11549 [astro-ph.CO]}
+  \BibitemShut {NoStop}%
+%%CITATION = ARXIV:1906.11549;%%
+\bibitem [{\citenamefont {Yuan}\ \emph
+  {et~al.}(2019{\natexlab{b}})\citenamefont {Yuan}, \citenamefont {Chen},\ and\
+  \citenamefont {Huang}}]{Yuan:2019wwo}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {Chen}\ \bibnamefont
+  {Yuan}}, \bibinfo {author} {\bibfnamefont {Zu-Cheng}\ \bibnamefont {Chen}}, \
+  and\ \bibinfo {author} {\bibfnamefont {Qing-Guo}\ \bibnamefont {Huang}},\
+  }\bibfield  {title} {\enquote {\bibinfo {title} {{Log-dependent slope of
+  scalar induced gravitational waves in the infrared regions}},}\ }\href@noop
+  {} {\  (\bibinfo {year} {2019}{\natexlab{b}})},\ \Eprint
+  {http://arxiv.org/abs/1910.09099} {arXiv:1910.09099 [astro-ph.CO]}
+  \BibitemShut {NoStop}%
+%%CITATION = ARXIV:1910.09099;%%
+\bibitem [{\citenamefont {Chen}\ \emph
+  {et~al.}(2019{\natexlab{a}})\citenamefont {Chen}, \citenamefont {Yuan},\ and\
+  \citenamefont {Huang}}]{Chen:2019xse}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {Zu-Cheng}\
+  \bibnamefont {Chen}}, \bibinfo {author} {\bibfnamefont {Chen}\ \bibnamefont
+  {Yuan}}, \ and\ \bibinfo {author} {\bibfnamefont {Qing-Guo}\ \bibnamefont
+  {Huang}},\ }\bibfield  {title} {\enquote {\bibinfo {title} {{Pulsar Timing
+  Array Constraints on Primordial Black Holes with NANOGrav 11-Year Data
+  Set}},}\ }\href@noop {} {\  (\bibinfo {year} {2019}{\natexlab{a}})},\ \Eprint
+  {http://arxiv.org/abs/1910.12239} {arXiv:1910.12239 [astro-ph.CO]}
+  \BibitemShut {NoStop}%
+%%CITATION = ARXIV:1910.12239;%%
+\bibitem [{\citenamefont {Yuan}\ \emph
+  {et~al.}(2019{\natexlab{c}})\citenamefont {Yuan}, \citenamefont {Chen},\ and\
+  \citenamefont {Huang}}]{Yuan:2019fwv}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {Chen}\ \bibnamefont
+  {Yuan}}, \bibinfo {author} {\bibfnamefont {Zu-Cheng}\ \bibnamefont {Chen}}, \
+  and\ \bibinfo {author} {\bibfnamefont {Qing-Guo}\ \bibnamefont {Huang}},\
+  }\bibfield  {title} {\enquote {\bibinfo {title} {{Scalar Induced
+  Gravitational Waves in Different Gauges}},}\ }\href@noop {} {\  (\bibinfo
+  {year} {2019}{\natexlab{c}})},\ \Eprint {http://arxiv.org/abs/1912.00885}
+  {arXiv:1912.00885 [astro-ph.CO]} \BibitemShut {NoStop}%
+%%CITATION = ARXIV:1912.00885;%%
+\bibitem [{\citenamefont {Cai}\ \emph {et~al.}(2019{\natexlab{a}})\citenamefont
+  {Cai}, \citenamefont {Guo}, \citenamefont {Liu}, \citenamefont {Liu},\ and\
+  \citenamefont {Yang}}]{Cai:2019bmk}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {Rong-Gen}\
+  \bibnamefont {Cai}}, \bibinfo {author} {\bibfnamefont {Zong-Kuan}\
+  \bibnamefont {Guo}}, \bibinfo {author} {\bibfnamefont {Jing}\ \bibnamefont
+  {Liu}}, \bibinfo {author} {\bibfnamefont {Lang}\ \bibnamefont {Liu}}, \ and\
+  \bibinfo {author} {\bibfnamefont {Xing-Yu}\ \bibnamefont {Yang}},\ }\bibfield
+   {title} {\enquote {\bibinfo {title} {{Primordial black holes and
+  gravitational waves from parametric amplification of curvature
+  perturbations}},}\ }\href@noop {} {\  (\bibinfo {year}
+  {2019}{\natexlab{a}})},\ \Eprint {http://arxiv.org/abs/1912.10437}
+  {arXiv:1912.10437 [astro-ph.CO]} \BibitemShut {NoStop}%
+%%CITATION = ARXIV:1912.10437;%%
+\bibitem [{\citenamefont {Cai}\ \emph {et~al.}(2019{\natexlab{b}})\citenamefont
+  {Cai}, \citenamefont {Pi},\ and\ \citenamefont {Sasaki}}]{Cai:2018dig}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {Rong-gen}\
+  \bibnamefont {Cai}}, \bibinfo {author} {\bibfnamefont {Shi}\ \bibnamefont
+  {Pi}}, \ and\ \bibinfo {author} {\bibfnamefont {Misao}\ \bibnamefont
+  {Sasaki}},\ }\bibfield  {title} {\enquote {\bibinfo {title} {{Gravitational
+  Waves Induced by non-Gaussian Scalar Perturbations}},}\ }\href {\doibase
+  10.1103/PhysRevLett.122.201101} {\bibfield  {journal} {\bibinfo  {journal}
+  {Phys. Rev. Lett.}\ }\textbf {\bibinfo {volume} {122}},\ \bibinfo {pages}
+  {201101} (\bibinfo {year} {2019}{\natexlab{b}})},\ \Eprint
+  {http://arxiv.org/abs/1810.11000} {arXiv:1810.11000 [astro-ph.CO]}
+  \BibitemShut {NoStop}%
+%%CITATION = ARXIV:1810.11000;%%
+\bibitem [{\citenamefont {Cai}\ \emph {et~al.}(2019{\natexlab{c}})\citenamefont
+  {Cai}, \citenamefont {Pi}, \citenamefont {Wang},\ and\ \citenamefont
+  {Yang}}]{Cai:2019elf}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {Rong-Gen}\
+  \bibnamefont {Cai}}, \bibinfo {author} {\bibfnamefont {Shi}\ \bibnamefont
+  {Pi}}, \bibinfo {author} {\bibfnamefont {Shao-Jiang}\ \bibnamefont {Wang}}, \
+  and\ \bibinfo {author} {\bibfnamefont {Xing-Yu}\ \bibnamefont {Yang}},\
+  }\bibfield  {title} {\enquote {\bibinfo {title} {{Pulsar Timing Array
+  Constraints on the Induced Gravitational Waves}},}\ }\href {\doibase
+  10.1088/1475-7516/2019/10/059} {\  (\bibinfo {year} {2019}{\natexlab{c}}),\
+  10.1088/1475-7516/2019/10/059},\ \bibinfo {note}
+  {[JCAP1910,no.10,059(2019)]},\ \Eprint {http://arxiv.org/abs/1907.06372}
+  {arXiv:1907.06372 [astro-ph.CO]} \BibitemShut {NoStop}%
+%%CITATION = ARXIV:1907.06372;%%
+\bibitem [{\citenamefont {De~Luca}\ \emph {et~al.}(2019)\citenamefont
+  {De~Luca}, \citenamefont {Franciolini}, \citenamefont {Kehagias},\ and\
+  \citenamefont {Riotto}}]{DeLuca:2019ufz}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {V.}~\bibnamefont
+  {De~Luca}}, \bibinfo {author} {\bibfnamefont {G.}~\bibnamefont
+  {Franciolini}}, \bibinfo {author} {\bibfnamefont {A.}~\bibnamefont
+  {Kehagias}}, \ and\ \bibinfo {author} {\bibfnamefont {A.}~\bibnamefont
+  {Riotto}},\ }\bibfield  {title} {\enquote {\bibinfo {title} {{On the Gauge
+  Invariance of Cosmological Gravitational Waves}},}\ }\href@noop {} {\
+  (\bibinfo {year} {2019})},\ \Eprint {http://arxiv.org/abs/1911.09689}
+  {arXiv:1911.09689 [gr-qc]} \BibitemShut {NoStop}%
+%%CITATION = ARXIV:1911.09689;%%
+\bibitem [{\citenamefont {Bartolo}\ \emph
+  {et~al.}(2019{\natexlab{a}})\citenamefont {Bartolo}, \citenamefont {De~Luca},
+  \citenamefont {Franciolini}, \citenamefont {Peloso}, \citenamefont {Racco},\
+  and\ \citenamefont {Riotto}}]{Bartolo:2018rku}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {N.}~\bibnamefont
+  {Bartolo}}, \bibinfo {author} {\bibfnamefont {V.}~\bibnamefont {De~Luca}},
+  \bibinfo {author} {\bibfnamefont {G.}~\bibnamefont {Franciolini}}, \bibinfo
+  {author} {\bibfnamefont {M.}~\bibnamefont {Peloso}}, \bibinfo {author}
+  {\bibfnamefont {D.}~\bibnamefont {Racco}}, \ and\ \bibinfo {author}
+  {\bibfnamefont {A.}~\bibnamefont {Riotto}},\ }\bibfield  {title} {\enquote
+  {\bibinfo {title} {{Testing primordial black holes as dark matter with
+  LISA}},}\ }\href {\doibase 10.1103/PhysRevD.99.103521} {\bibfield  {journal}
+  {\bibinfo  {journal} {Phys. Rev.}\ }\textbf {\bibinfo {volume} {D99}},\
+  \bibinfo {pages} {103521} (\bibinfo {year} {2019}{\natexlab{a}})},\ \Eprint
+  {http://arxiv.org/abs/1810.12224} {arXiv:1810.12224 [astro-ph.CO]}
+  \BibitemShut {NoStop}%
+%%CITATION = ARXIV:1810.12224;%%
+\bibitem [{\citenamefont {Bartolo}\ \emph
+  {et~al.}(2019{\natexlab{b}})\citenamefont {Bartolo}, \citenamefont {De~Luca},
+  \citenamefont {Franciolini}, \citenamefont {Lewis}, \citenamefont {Peloso},\
+  and\ \citenamefont {Riotto}}]{Bartolo:2018evs}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {N.}~\bibnamefont
+  {Bartolo}}, \bibinfo {author} {\bibfnamefont {V.}~\bibnamefont {De~Luca}},
+  \bibinfo {author} {\bibfnamefont {G.}~\bibnamefont {Franciolini}}, \bibinfo
+  {author} {\bibfnamefont {A.}~\bibnamefont {Lewis}}, \bibinfo {author}
+  {\bibfnamefont {M.}~\bibnamefont {Peloso}}, \ and\ \bibinfo {author}
+  {\bibfnamefont {A.}~\bibnamefont {Riotto}},\ }\bibfield  {title} {\enquote
+  {\bibinfo {title} {{Primordial Black Hole Dark Matter: LISA Serendipity}},}\
+  }\href {\doibase 10.1103/PhysRevLett.122.211301} {\bibfield  {journal}
+  {\bibinfo  {journal} {Phys. Rev. Lett.}\ }\textbf {\bibinfo {volume} {122}},\
+  \bibinfo {pages} {211301} (\bibinfo {year} {2019}{\natexlab{b}})},\ \Eprint
+  {http://arxiv.org/abs/1810.12218} {arXiv:1810.12218 [astro-ph.CO]}
+  \BibitemShut {NoStop}%
+%%CITATION = ARXIV:1810.12218;%%
+\bibitem [{\citenamefont {Carr}\ \emph {et~al.}(2010)\citenamefont {Carr},
+  \citenamefont {Kohri}, \citenamefont {Sendouda},\ and\ \citenamefont
+  {Yokoyama}}]{Carr:2009jm}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {B.~J.}\ \bibnamefont
+  {Carr}}, \bibinfo {author} {\bibfnamefont {Kazunori}\ \bibnamefont {Kohri}},
+  \bibinfo {author} {\bibfnamefont {Yuuiti}\ \bibnamefont {Sendouda}}, \ and\
+  \bibinfo {author} {\bibfnamefont {Jun'ichi}\ \bibnamefont {Yokoyama}},\
+  }\bibfield  {title} {\enquote {\bibinfo {title} {{New cosmological
+  constraints on primordial black holes}},}\ }\href {\doibase
+  10.1103/PhysRevD.81.104019} {\bibfield  {journal} {\bibinfo  {journal} {Phys.
+  Rev.}\ }\textbf {\bibinfo {volume} {D81}},\ \bibinfo {pages} {104019}
+  (\bibinfo {year} {2010})},\ \Eprint {http://arxiv.org/abs/0912.5297}
+  {arXiv:0912.5297 [astro-ph.CO]} \BibitemShut {NoStop}%
+%%CITATION = ARXIV:0912.5297;%%
+\bibitem [{\citenamefont {Barnacka}\ \emph {et~al.}(2012)\citenamefont
+  {Barnacka}, \citenamefont {Glicenstein},\ and\ \citenamefont
+  {Moderski}}]{Barnacka:2012bm}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {A.}~\bibnamefont
+  {Barnacka}}, \bibinfo {author} {\bibfnamefont {J.~F.}\ \bibnamefont
+  {Glicenstein}}, \ and\ \bibinfo {author} {\bibfnamefont {R.}~\bibnamefont
+  {Moderski}},\ }\bibfield  {title} {\enquote {\bibinfo {title} {{New
+  constraints on primordial black holes abundance from femtolensing of
+  gamma-ray bursts}},}\ }\href {\doibase 10.1103/PhysRevD.86.043001} {\bibfield
+   {journal} {\bibinfo  {journal} {Phys. Rev.}\ }\textbf {\bibinfo {volume}
+  {D86}},\ \bibinfo {pages} {043001} (\bibinfo {year} {2012})},\ \Eprint
+  {http://arxiv.org/abs/1204.2056} {arXiv:1204.2056 [astro-ph.CO]} \BibitemShut
+  {NoStop}%
+%%CITATION = ARXIV:1204.2056;%%
+\bibitem [{\citenamefont {Graham}\ \emph {et~al.}(2015)\citenamefont {Graham},
+  \citenamefont {Rajendran},\ and\ \citenamefont {Varela}}]{Graham:2015apa}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {Peter~W.}\
+  \bibnamefont {Graham}}, \bibinfo {author} {\bibfnamefont {Surjeet}\
+  \bibnamefont {Rajendran}}, \ and\ \bibinfo {author} {\bibfnamefont {Jaime}\
+  \bibnamefont {Varela}},\ }\bibfield  {title} {\enquote {\bibinfo {title}
+  {{Dark Matter Triggers of Supernovae}},}\ }\href {\doibase
+  10.1103/PhysRevD.92.063007} {\bibfield  {journal} {\bibinfo  {journal} {Phys.
+  Rev.}\ }\textbf {\bibinfo {volume} {D92}},\ \bibinfo {pages} {063007}
+  (\bibinfo {year} {2015})},\ \Eprint {http://arxiv.org/abs/1505.04444}
+  {arXiv:1505.04444 [hep-ph]} \BibitemShut {NoStop}%
+%%CITATION = ARXIV:1505.04444;%%
+\bibitem [{\citenamefont {Niikura}\ \emph {et~al.}(2017)\citenamefont {Niikura}
+  \emph {et~al.}}]{Niikura:2017zjd}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {Hiroko}\ \bibnamefont
+  {Niikura}} \emph {et~al.},\ }\bibfield  {title} {\enquote {\bibinfo {title}
+  {{Microlensing constraints on primordial black holes with the Subaru/HSC
+  Andromeda observation}},}\ }\href@noop {} {\  (\bibinfo {year} {2017})},\
+  \Eprint {http://arxiv.org/abs/1701.02151} {arXiv:1701.02151 [astro-ph.CO]}
+  \BibitemShut {NoStop}%
+%%CITATION = ARXIV:1701.02151;%%
+\bibitem [{\citenamefont {Griest}\ \emph {et~al.}(2013)\citenamefont {Griest},
+  \citenamefont {Cieplak},\ and\ \citenamefont {Lehner}}]{Griest:2013esa}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {Kim}\ \bibnamefont
+  {Griest}}, \bibinfo {author} {\bibfnamefont {Agnieszka~M.}\ \bibnamefont
+  {Cieplak}}, \ and\ \bibinfo {author} {\bibfnamefont {Matthew~J.}\
+  \bibnamefont {Lehner}},\ }\bibfield  {title} {\enquote {\bibinfo {title}
+  {{New Limits on Primordial Black Hole Dark Matter from an Analysis of Kepler
+  Source Microlensing Data}},}\ }\href {\doibase
+  10.1103/PhysRevLett.111.181302} {\bibfield  {journal} {\bibinfo  {journal}
+  {Phys. Rev. Lett.}\ }\textbf {\bibinfo {volume} {111}},\ \bibinfo {pages}
+  {181302} (\bibinfo {year} {2013})}\BibitemShut {NoStop}%
+%%CITATION = PRLTA,111,181302;%%
+\bibitem [{\citenamefont {Niikura}\ \emph {et~al.}(2019)\citenamefont
+  {Niikura}, \citenamefont {Takada}, \citenamefont {Yokoyama}, \citenamefont
+  {Sumi},\ and\ \citenamefont {Masaki}}]{Niikura:2019kqi}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {Hiroko}\ \bibnamefont
+  {Niikura}}, \bibinfo {author} {\bibfnamefont {Masahiro}\ \bibnamefont
+  {Takada}}, \bibinfo {author} {\bibfnamefont {Shuichiro}\ \bibnamefont
+  {Yokoyama}}, \bibinfo {author} {\bibfnamefont {Takahiro}\ \bibnamefont
+  {Sumi}}, \ and\ \bibinfo {author} {\bibfnamefont {Shogo}\ \bibnamefont
+  {Masaki}},\ }\bibfield  {title} {\enquote {\bibinfo {title} {{Earth-mass
+  black holes? - Constraints on primordial black holes with 5-years OGLE
+  microlensing events}},}\ }\href@noop {} {\  (\bibinfo {year} {2019})},\
+  \Eprint {http://arxiv.org/abs/1901.07120} {arXiv:1901.07120 [astro-ph.CO]}
+  \BibitemShut {NoStop}%
+%%CITATION = ARXIV:1901.07120;%%
+\bibitem [{\citenamefont {Tisserand}\ \emph {et~al.}(2007)\citenamefont
+  {Tisserand} \emph {et~al.}}]{Tisserand:2006zx}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {P.}~\bibnamefont
+  {Tisserand}} \emph {et~al.} (\bibinfo {collaboration} {EROS-2}),\ }\bibfield
+  {title} {\enquote {\bibinfo {title} {{Limits on the Macho Content of the
+  Galactic Halo from the EROS-2 Survey of the Magellanic Clouds}},}\ }\href
+  {\doibase 10.1051/0004-6361:20066017} {\bibfield  {journal} {\bibinfo
+  {journal} {Astron. Astrophys.}\ }\textbf {\bibinfo {volume} {469}},\ \bibinfo
+  {pages} {387--404} (\bibinfo {year} {2007})},\ \Eprint
+  {http://arxiv.org/abs/astro-ph/0607207} {arXiv:astro-ph/0607207 [astro-ph]}
+  \BibitemShut {NoStop}%
+%%CITATION = ASTRO-PH/0607207;%%
+\bibitem [{\citenamefont {Brandt}(2016)}]{Brandt:2016aco}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {Timothy~D.}\
+  \bibnamefont {Brandt}},\ }\bibfield  {title} {\enquote {\bibinfo {title}
+  {{Constraints on MACHO Dark Matter from Compact Stellar Systems in
+  Ultra-Faint Dwarf Galaxies}},}\ }\href {\doibase 10.3847/2041-8205/824/2/L31}
+  {\bibfield  {journal} {\bibinfo  {journal} {Astrophys. J.}\ }\textbf
+  {\bibinfo {volume} {824}},\ \bibinfo {pages} {L31} (\bibinfo {year}
+  {2016})},\ \Eprint {http://arxiv.org/abs/1605.03665} {arXiv:1605.03665
+  [astro-ph.GA]} \BibitemShut {NoStop}%
+%%CITATION = ARXIV:1605.03665;%%
+\bibitem [{\citenamefont {Gaggero}\ \emph {et~al.}(2017)\citenamefont
+  {Gaggero}, \citenamefont {Bertone}, \citenamefont {Calore}, \citenamefont
+  {Connors}, \citenamefont {Lovell}, \citenamefont {Markoff},\ and\
+  \citenamefont {Storm}}]{Gaggero:2016dpq}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {Daniele}\ \bibnamefont
+  {Gaggero}}, \bibinfo {author} {\bibfnamefont {Gianfranco}\ \bibnamefont
+  {Bertone}}, \bibinfo {author} {\bibfnamefont {Francesca}\ \bibnamefont
+  {Calore}}, \bibinfo {author} {\bibfnamefont {Riley M.~T.}\ \bibnamefont
+  {Connors}}, \bibinfo {author} {\bibfnamefont {Mark}\ \bibnamefont {Lovell}},
+  \bibinfo {author} {\bibfnamefont {Sera}\ \bibnamefont {Markoff}}, \ and\
+  \bibinfo {author} {\bibfnamefont {Emma}\ \bibnamefont {Storm}},\ }\bibfield
+  {title} {\enquote {\bibinfo {title} {{Searching for Primordial Black Holes in
+  the radio and X-ray sky}},}\ }\href {\doibase 10.1103/PhysRevLett.118.241101}
+  {\bibfield  {journal} {\bibinfo  {journal} {Phys. Rev. Lett.}\ }\textbf
+  {\bibinfo {volume} {118}},\ \bibinfo {pages} {241101} (\bibinfo {year}
+  {2017})},\ \Eprint {http://arxiv.org/abs/1612.00457} {arXiv:1612.00457
+  [astro-ph.HE]} \BibitemShut {NoStop}%
+%%CITATION = ARXIV:1612.00457;%%
+\bibitem [{\citenamefont {Ali-Haïmoud}\ and\ \citenamefont
+  {Kamionkowski}(2017)}]{Ali-Haimoud:2016mbv}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {Yacine}\ \bibnamefont
+  {Ali-Haïmoud}}\ and\ \bibinfo {author} {\bibfnamefont {Marc}\ \bibnamefont
+  {Kamionkowski}},\ }\bibfield  {title} {\enquote {\bibinfo {title} {{Cosmic
+  microwave background limits on accreting primordial black holes}},}\ }\href
+  {\doibase 10.1103/PhysRevD.95.043534} {\bibfield  {journal} {\bibinfo
+  {journal} {Phys. Rev.}\ }\textbf {\bibinfo {volume} {D95}},\ \bibinfo {pages}
+  {043534} (\bibinfo {year} {2017})},\ \Eprint
+  {http://arxiv.org/abs/1612.05644} {arXiv:1612.05644 [astro-ph.CO]}
+  \BibitemShut {NoStop}%
+%%CITATION = ARXIV:1612.05644;%%
+\bibitem [{\citenamefont {Aloni}\ \emph {et~al.}(2017)\citenamefont {Aloni},
+  \citenamefont {Blum},\ and\ \citenamefont {Flauger}}]{Blum:2016cjs}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {Daniel}\ \bibnamefont
+  {Aloni}}, \bibinfo {author} {\bibfnamefont {Kfir}\ \bibnamefont {Blum}}, \
+  and\ \bibinfo {author} {\bibfnamefont {Raphael}\ \bibnamefont {Flauger}},\
+  }\bibfield  {title} {\enquote {\bibinfo {title} {{Cosmic microwave background
+  constraints on primordial black hole dark matter}},}\ }\href {\doibase
+  10.1088/1475-7516/2017/05/017} {\bibfield  {journal} {\bibinfo  {journal}
+  {JCAP}\ }\textbf {\bibinfo {volume} {1705}},\ \bibinfo {pages} {017}
+  (\bibinfo {year} {2017})},\ \Eprint {http://arxiv.org/abs/1612.06811}
+  {arXiv:1612.06811 [astro-ph.CO]} \BibitemShut {NoStop}%
+%%CITATION = ARXIV:1612.06811;%%
+\bibitem [{\citenamefont {Horowitz}(2016)}]{Horowitz:2016lib}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {Benjamin}\
+  \bibnamefont {Horowitz}},\ }\bibfield  {title} {\enquote {\bibinfo {title}
+  {{Revisiting Primordial Black Holes Constraints from Ionization History}},}\
+  }\href@noop {} {\  (\bibinfo {year} {2016})},\ \Eprint
+  {http://arxiv.org/abs/1612.07264} {arXiv:1612.07264 [astro-ph.CO]}
+  \BibitemShut {NoStop}%
+%%CITATION = ARXIV:1612.07264;%%
+\bibitem [{\citenamefont {Chen}\ \emph {et~al.}(2016)\citenamefont {Chen},
+  \citenamefont {Huang},\ and\ \citenamefont {Wang}}]{Chen:2016pud}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {Lu}~\bibnamefont
+  {Chen}}, \bibinfo {author} {\bibfnamefont {Qing-Guo}\ \bibnamefont {Huang}},
+  \ and\ \bibinfo {author} {\bibfnamefont {Ke}~\bibnamefont {Wang}},\
+  }\bibfield  {title} {\enquote {\bibinfo {title} {{Constraint on the abundance
+  of primordial black holes in dark matter from Planck data}},}\ }\href
+  {\doibase 10.1088/1475-7516/2016/12/044} {\bibfield  {journal} {\bibinfo
+  {journal} {JCAP}\ }\textbf {\bibinfo {volume} {1612}},\ \bibinfo {pages}
+  {044} (\bibinfo {year} {2016})},\ \Eprint {http://arxiv.org/abs/1608.02174}
+  {arXiv:1608.02174 [astro-ph.CO]} \BibitemShut {NoStop}%
+%%CITATION = ARXIV:1608.02174;%%
+\bibitem [{\citenamefont {Wang}\ \emph {et~al.}(2018)\citenamefont {Wang},
+  \citenamefont {Wang}, \citenamefont {Huang},\ and\ \citenamefont
+  {Li}}]{Wang:2016ana}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {Sai}\ \bibnamefont
+  {Wang}}, \bibinfo {author} {\bibfnamefont {Yi-Fan}\ \bibnamefont {Wang}},
+  \bibinfo {author} {\bibfnamefont {Qing-Guo}\ \bibnamefont {Huang}}, \ and\
+  \bibinfo {author} {\bibfnamefont {Tjonnie G.~F.}\ \bibnamefont {Li}},\
+  }\bibfield  {title} {\enquote {\bibinfo {title} {{Constraints on the
+  Primordial Black Hole Abundance from the First Advanced LIGO Observation Run
+  Using the Stochastic Gravitational-Wave Background}},}\ }\href {\doibase
+  10.1103/PhysRevLett.120.191102} {\bibfield  {journal} {\bibinfo  {journal}
+  {Phys. Rev. Lett.}\ }\textbf {\bibinfo {volume} {120}},\ \bibinfo {pages}
+  {191102} (\bibinfo {year} {2018})},\ \Eprint
+  {http://arxiv.org/abs/1610.08725} {arXiv:1610.08725 [astro-ph.CO]}
+  \BibitemShut {NoStop}%
+%%CITATION = ARXIV:1610.08725;%%
+\bibitem [{\citenamefont {Abbott}\ \emph
+  {et~al.}(2018{\natexlab{b}})\citenamefont {Abbott} \emph
+  {et~al.}}]{Abbott:2018oah}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {B.~P.}\ \bibnamefont
+  {Abbott}} \emph {et~al.} (\bibinfo {collaboration} {LIGO Scientific,
+  Virgo}),\ }\bibfield  {title} {\enquote {\bibinfo {title} {{Search for
+  sub-solar mass ultracompact binaries in Advanced LIGO's first observing
+  run}},}\ }\href {\doibase 10.1103/PhysRevLett.121.231103} {\bibfield
+  {journal} {\bibinfo  {journal} {Phys. Rev. Lett.}\ }\textbf {\bibinfo
+  {volume} {121}},\ \bibinfo {pages} {231103} (\bibinfo {year}
+  {2018}{\natexlab{b}})},\ \Eprint {http://arxiv.org/abs/1808.04771}
+  {arXiv:1808.04771 [astro-ph.CO]} \BibitemShut {NoStop}%
+%%CITATION = ARXIV:1808.04771;%%
+\bibitem [{\citenamefont {Magee}\ \emph {et~al.}(2018)\citenamefont {Magee},
+  \citenamefont {Deutsch}, \citenamefont {McClincy}, \citenamefont {Hanna},
+  \citenamefont {Horst}, \citenamefont {Meacher}, \citenamefont {Messick},
+  \citenamefont {Shandera},\ and\ \citenamefont {Wade}}]{Magee:2018opb}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {Ryan}\ \bibnamefont
+  {Magee}}, \bibinfo {author} {\bibfnamefont {Anne-Sylvie}\ \bibnamefont
+  {Deutsch}}, \bibinfo {author} {\bibfnamefont {Phoebe}\ \bibnamefont
+  {McClincy}}, \bibinfo {author} {\bibfnamefont {Chad}\ \bibnamefont {Hanna}},
+  \bibinfo {author} {\bibfnamefont {Christian}\ \bibnamefont {Horst}}, \bibinfo
+  {author} {\bibfnamefont {Duncan}\ \bibnamefont {Meacher}}, \bibinfo {author}
+  {\bibfnamefont {Cody}\ \bibnamefont {Messick}}, \bibinfo {author}
+  {\bibfnamefont {Sarah}\ \bibnamefont {Shandera}}, \ and\ \bibinfo {author}
+  {\bibfnamefont {Madeline}\ \bibnamefont {Wade}},\ }\bibfield  {title}
+  {\enquote {\bibinfo {title} {{Methods for the detection of gravitational
+  waves from subsolar mass ultracompact binaries}},}\ }\href {\doibase
+  10.1103/PhysRevD.98.103024} {\bibfield  {journal} {\bibinfo  {journal} {Phys.
+  Rev.}\ }\textbf {\bibinfo {volume} {D98}},\ \bibinfo {pages} {103024}
+  (\bibinfo {year} {2018})},\ \Eprint {http://arxiv.org/abs/1808.04772}
+  {arXiv:1808.04772 [astro-ph.IM]} \BibitemShut {NoStop}%
+%%CITATION = ARXIV:1808.04772;%%
+\bibitem [{\citenamefont {Wang}\ \emph {et~al.}(2019)\citenamefont {Wang},
+  \citenamefont {Terada},\ and\ \citenamefont {Kohri}}]{Wang:2019kaf}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {Sai}\ \bibnamefont
+  {Wang}}, \bibinfo {author} {\bibfnamefont {Takahiro}\ \bibnamefont {Terada}},
+  \ and\ \bibinfo {author} {\bibfnamefont {Kazunori}\ \bibnamefont {Kohri}},\
+  }\bibfield  {title} {\enquote {\bibinfo {title} {{Prospective constraints on
+  the primordial black hole abundance from the stochastic gravitational-wave
+  backgrounds produced by coalescing events and curvature perturbations}},}\
+  }\href@noop {} {\  (\bibinfo {year} {2019})},\ \Eprint
+  {http://arxiv.org/abs/1903.05924} {arXiv:1903.05924 [astro-ph.CO]}
+  \BibitemShut {NoStop}%
+%%CITATION = ARXIV:1903.05924;%%
+\bibitem [{\citenamefont {Chen}\ \emph
+  {et~al.}(2019{\natexlab{b}})\citenamefont {Chen}, \citenamefont {Huang},\
+  and\ \citenamefont {Huang}}]{Chen:2018rzo}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {Zu-Cheng}\
+  \bibnamefont {Chen}}, \bibinfo {author} {\bibfnamefont {Fan}\ \bibnamefont
+  {Huang}}, \ and\ \bibinfo {author} {\bibfnamefont {Qing-Guo}\ \bibnamefont
+  {Huang}},\ }\bibfield  {title} {\enquote {\bibinfo {title} {{Stochastic
+  Gravitational-Wave Background from Binary Black Holes and Binary Neutron
+  Stars}},}\ }\href {\doibase 10.3847/1538-4357/aaf581} {\bibfield  {journal}
+  {\bibinfo  {journal} {Astrophys. J.}\ }\textbf {\bibinfo {volume} {871}},\
+  \bibinfo {pages} {97} (\bibinfo {year} {2019}{\natexlab{b}})},\ \Eprint
+  {http://arxiv.org/abs/1809.10360} {arXiv:1809.10360 [gr-qc]} \BibitemShut
+  {NoStop}%
+%%CITATION = ARXIV:1809.10360;%%
+\bibitem [{\citenamefont {Chen}\ and\ \citenamefont
+  {Huang}(2019)}]{Chen:2019irf}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {Zu-Cheng}\
+  \bibnamefont {Chen}}\ and\ \bibinfo {author} {\bibfnamefont {Qing-Guo}\
+  \bibnamefont {Huang}},\ }\bibfield  {title} {\enquote {\bibinfo {title}
+  {{Distinguishing Primordial Black Holes from Astrophysical Black Holes by
+  Einstein Telescope and Cosmic Explorer}},}\ }\href@noop {} {\  (\bibinfo
+  {year} {2019})},\ \Eprint {http://arxiv.org/abs/1904.02396} {arXiv:1904.02396
+  [astro-ph.CO]} \BibitemShut {NoStop}%
+%%CITATION = ARXIV:1904.02396;%%
+\bibitem [{\citenamefont {Montero-Camacho}\ \emph {et~al.}(2019)\citenamefont
+  {Montero-Camacho}, \citenamefont {Fang}, \citenamefont {Vasquez},
+  \citenamefont {Silva},\ and\ \citenamefont
+  {Hirata}}]{Montero-Camacho:2019jte}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {Paulo}\ \bibnamefont
+  {Montero-Camacho}}, \bibinfo {author} {\bibfnamefont {Xiao}\ \bibnamefont
+  {Fang}}, \bibinfo {author} {\bibfnamefont {Gabriel}\ \bibnamefont {Vasquez}},
+  \bibinfo {author} {\bibfnamefont {Makana}\ \bibnamefont {Silva}}, \ and\
+  \bibinfo {author} {\bibfnamefont {Christopher~M.}\ \bibnamefont {Hirata}},\
+  }\bibfield  {title} {\enquote {\bibinfo {title} {{Revisiting constraints on
+  asteroid-mass primordial black holes as dark matter candidates}},}\ }\href
+  {\doibase 10.1088/1475-7516/2019/08/031} {\bibfield  {journal} {\bibinfo
+  {journal} {JCAP}\ }\textbf {\bibinfo {volume} {1908}},\ \bibinfo {pages}
+  {031} (\bibinfo {year} {2019})},\ \Eprint {http://arxiv.org/abs/1906.05950}
+  {arXiv:1906.05950 [astro-ph.CO]} \BibitemShut {NoStop}%
+%%CITATION = ARXIV:1906.05950;%%
+\bibitem [{\citenamefont {Laha}(2019)}]{Laha:2019ssq}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {Ranjan}\ \bibnamefont
+  {Laha}},\ }\bibfield  {title} {\enquote {\bibinfo {title} {{Primordial black
+  holes as a dark matter candidate are severely constrained by the Galactic
+  Center 511 keV gamma-ray line}},}\ }\href {\doibase
+  10.1103/PhysRevLett.123.251101} {\bibfield  {journal} {\bibinfo  {journal}
+  {Phys. Rev. Lett.}\ }\textbf {\bibinfo {volume} {123}},\ \bibinfo {pages}
+  {251101} (\bibinfo {year} {2019})},\ \Eprint
+  {http://arxiv.org/abs/1906.09994} {arXiv:1906.09994 [astro-ph.HE]}
+  \BibitemShut {NoStop}%
+%%CITATION = ARXIV:1906.09994;%%
+\bibitem [{\citenamefont {Dasgupta}\ \emph {et~al.}(2019)\citenamefont
+  {Dasgupta}, \citenamefont {Laha},\ and\ \citenamefont
+  {Ray}}]{Dasgupta:2019cae}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {Basudeb}\ \bibnamefont
+  {Dasgupta}}, \bibinfo {author} {\bibfnamefont {Ranjan}\ \bibnamefont {Laha}},
+  \ and\ \bibinfo {author} {\bibfnamefont {Anupam}\ \bibnamefont {Ray}},\
+  }\bibfield  {title} {\enquote {\bibinfo {title} {{Neutrino and positron
+  constraints on spinning primordial black hole dark matter}},}\ }\href@noop {}
+  {\  (\bibinfo {year} {2019})},\ \Eprint {http://arxiv.org/abs/1912.01014}
+  {arXiv:1912.01014 [hep-ph]} \BibitemShut {NoStop}%
+%%CITATION = ARXIV:1912.01014;%%
+\bibitem [{\citenamefont {Gow}\ \emph {et~al.}(2020)\citenamefont {Gow},
+  \citenamefont {Byrnes}, \citenamefont {Hall},\ and\ \citenamefont
+  {Peacock}}]{Gow:2019pok}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {Andrew~D.}\
+  \bibnamefont {Gow}}, \bibinfo {author} {\bibfnamefont {Christian~T.}\
+  \bibnamefont {Byrnes}}, \bibinfo {author} {\bibfnamefont {Alex}\ \bibnamefont
+  {Hall}}, \ and\ \bibinfo {author} {\bibfnamefont {John~A.}\ \bibnamefont
+  {Peacock}},\ }\bibfield  {title} {\enquote {\bibinfo {title} {{Primordial
+  black hole merger rates: distributions for multiple LIGO observables}},}\
+  }\href {\doibase 10.1088/1475-7516/2020/01/031} {\bibfield  {journal}
+  {\bibinfo  {journal} {JCAP}\ }\textbf {\bibinfo {volume} {2001}},\ \bibinfo
+  {pages} {031} (\bibinfo {year} {2020})},\ \Eprint
+  {http://arxiv.org/abs/1911.12685} {arXiv:1911.12685 [astro-ph.CO]}
+  \BibitemShut {NoStop}%
+%%CITATION = ARXIV:1911.12685;%%
+\bibitem [{\citenamefont {Nakamura}\ \emph {et~al.}(1997)\citenamefont
+  {Nakamura}, \citenamefont {Sasaki}, \citenamefont {Tanaka},\ and\
+  \citenamefont {Thorne}}]{Nakamura:1997sm}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {Takashi}\ \bibnamefont
+  {Nakamura}}, \bibinfo {author} {\bibfnamefont {Misao}\ \bibnamefont
+  {Sasaki}}, \bibinfo {author} {\bibfnamefont {Takahiro}\ \bibnamefont
+  {Tanaka}}, \ and\ \bibinfo {author} {\bibfnamefont {Kip~S.}\ \bibnamefont
+  {Thorne}},\ }\bibfield  {title} {\enquote {\bibinfo {title} {{Gravitational
+  waves from coalescing black hole MACHO binaries}},}\ }\href {\doibase
+  10.1086/310886} {\bibfield  {journal} {\bibinfo  {journal} {Astrophys. J.}\
+  }\textbf {\bibinfo {volume} {487}},\ \bibinfo {pages} {L139--L142} (\bibinfo
+  {year} {1997})},\ \Eprint {http://arxiv.org/abs/astro-ph/9708060}
+  {arXiv:astro-ph/9708060} \BibitemShut {NoStop}%
+%%CITATION = ASTRO-PH/9708060;%%
+\bibitem [{\citenamefont {Raidal}\ \emph {et~al.}(2018)\citenamefont {Raidal},
+  \citenamefont {Spethmann}, \citenamefont {Vaskonen},\ and\ \citenamefont
+  {Veermäe}}]{Raidal:2018bbj}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {Martti}\ \bibnamefont
+  {Raidal}}, \bibinfo {author} {\bibfnamefont {Christian}\ \bibnamefont
+  {Spethmann}}, \bibinfo {author} {\bibfnamefont {Ville}\ \bibnamefont
+  {Vaskonen}}, \ and\ \bibinfo {author} {\bibfnamefont {Hardi}\ \bibnamefont
+  {Veermäe}},\ }\bibfield  {title} {\enquote {\bibinfo {title} {{Formation and
+  Evolution of Primordial Black Hole Binaries in the Early Universe}},}\
+  }\href@noop {} {\  (\bibinfo {year} {2018})},\ \Eprint
+  {http://arxiv.org/abs/1812.01930} {arXiv:1812.01930 [astro-ph.CO]}
+  \BibitemShut {NoStop}%
+%%CITATION = ARXIV:1812.01930;%%
+\bibitem [{\citenamefont {Raidal}\ \emph {et~al.}(2017)\citenamefont {Raidal},
+  \citenamefont {Vaskonen},\ and\ \citenamefont {Veermäe}}]{Raidal:2017mfl}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {Martti}\ \bibnamefont
+  {Raidal}}, \bibinfo {author} {\bibfnamefont {Ville}\ \bibnamefont
+  {Vaskonen}}, \ and\ \bibinfo {author} {\bibfnamefont {Hardi}\ \bibnamefont
+  {Veermäe}},\ }\bibfield  {title} {\enquote {\bibinfo {title} {{Gravitational
+  Waves from Primordial Black Hole Mergers}},}\ }\href {\doibase
+  10.1088/1475-7516/2017/09/037} {\bibfield  {journal} {\bibinfo  {journal}
+  {JCAP}\ }\textbf {\bibinfo {volume} {1709}},\ \bibinfo {pages} {037}
+  (\bibinfo {year} {2017})},\ \Eprint {http://arxiv.org/abs/1707.01480}
+  {arXiv:1707.01480 [astro-ph.CO]} \BibitemShut {NoStop}%
+%%CITATION = ARXIV:1707.01480;%%
+\bibitem [{\citenamefont {Liu}\ \emph {et~al.}(2019{\natexlab{a}})\citenamefont
+  {Liu}, \citenamefont {Guo},\ and\ \citenamefont {Cai}}]{Liu:2018ess}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {Lang}\ \bibnamefont
+  {Liu}}, \bibinfo {author} {\bibfnamefont {Zong-Kuan}\ \bibnamefont {Guo}}, \
+  and\ \bibinfo {author} {\bibfnamefont {Rong-Gen}\ \bibnamefont {Cai}},\
+  }\bibfield  {title} {\enquote {\bibinfo {title} {{Effects of the surrounding
+  primordial black holes on the merger rate of primordial black hole
+  binaries}},}\ }\href {\doibase 10.1103/PhysRevD.99.063523} {\bibfield
+  {journal} {\bibinfo  {journal} {Phys. Rev.}\ }\textbf {\bibinfo {volume}
+  {D99}},\ \bibinfo {pages} {063523} (\bibinfo {year} {2019}{\natexlab{a}})},\
+  \Eprint {http://arxiv.org/abs/1812.05376} {arXiv:1812.05376 [astro-ph.CO]}
+  \BibitemShut {NoStop}%
+%%CITATION = ARXIV:1812.05376;%%
+\bibitem [{\citenamefont {Liu}\ \emph {et~al.}(2020)\citenamefont {Liu},
+  \citenamefont {Guo}, \citenamefont {Cai},\ and\ \citenamefont
+  {Kim}}]{Liu:2020cds}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {Lang}\ \bibnamefont
+  {Liu}}, \bibinfo {author} {\bibfnamefont {Zong-Kuan}\ \bibnamefont {Guo}},
+  \bibinfo {author} {\bibfnamefont {Rong-Gen}\ \bibnamefont {Cai}}, \ and\
+  \bibinfo {author} {\bibfnamefont {Sang~Pyo}\ \bibnamefont {Kim}},\ }\bibfield
+   {title} {\enquote {\bibinfo {title} {{Merger rate distribution of primordial
+  black hole binaries with electric charges}},}\ }\href@noop {} {\  (\bibinfo
+  {year} {2020})},\ \Eprint {http://arxiv.org/abs/2001.02984} {arXiv:2001.02984
+  [astro-ph.CO]} \BibitemShut {NoStop}%
+%%CITATION = ARXIV:2001.02984;%%
+\bibitem [{\citenamefont {Vaskonen}\ and\ \citenamefont
+  {Veermäe}(2019)}]{Vaskonen:2019jpv}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {Ville}\ \bibnamefont
+  {Vaskonen}}\ and\ \bibinfo {author} {\bibfnamefont {Hardi}\ \bibnamefont
+  {Veermäe}},\ }\bibfield  {title} {\enquote {\bibinfo {title} {{A lower bound
+  on the primordial black hole merger rate}},}\ }\href@noop {} {\  (\bibinfo
+  {year} {2019})},\ \Eprint {http://arxiv.org/abs/1908.09752} {arXiv:1908.09752
+  [astro-ph.CO]} \BibitemShut {NoStop}%
+%%CITATION = ARXIV:1908.09752;%%
+\bibitem [{\citenamefont {Liu}\ \emph {et~al.}(2019{\natexlab{b}})\citenamefont
+  {Liu}, \citenamefont {Guo},\ and\ \citenamefont {Cai}}]{Liu:2019rnx}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {Lang}\ \bibnamefont
+  {Liu}}, \bibinfo {author} {\bibfnamefont {Zong-Kuan}\ \bibnamefont {Guo}}, \
+  and\ \bibinfo {author} {\bibfnamefont {Rong-Gen}\ \bibnamefont {Cai}},\
+  }\bibfield  {title} {\enquote {\bibinfo {title} {{Effects of the merger
+  history on the merger rate density of primordial black hole binaries}},}\
+  }\href {\doibase 10.1140/epjc/s10052-019-7227-0} {\bibfield  {journal}
+  {\bibinfo  {journal} {Eur. Phys. J.}\ }\textbf {\bibinfo {volume} {C79}},\
+  \bibinfo {pages} {717} (\bibinfo {year} {2019}{\natexlab{b}})},\ \Eprint
+  {http://arxiv.org/abs/1901.07672} {arXiv:1901.07672 [astro-ph.CO]}
+  \BibitemShut {NoStop}%
+%%CITATION = ARXIV:1901.07672;%%
+\bibitem [{\citenamefont {Abbott}\ \emph
+  {et~al.}(2016{\natexlab{d}})\citenamefont {Abbott} \emph
+  {et~al.}}]{Abbott:2016nhf}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {B.~P.}\ \bibnamefont
+  {Abbott}} \emph {et~al.} (\bibinfo {collaboration} {Virgo, LIGO
+  Scientific}),\ }\bibfield  {title} {\enquote {\bibinfo {title} {{The Rate of
+  Binary Black Hole Mergers Inferred from Advanced LIGO Observations
+  Surrounding GW150914}},}\ }\href {\doibase 10.3847/2041-8205/833/1/L1}
+  {\bibfield  {journal} {\bibinfo  {journal} {Astrophys. J.}\ }\textbf
+  {\bibinfo {volume} {833}},\ \bibinfo {pages} {L1} (\bibinfo {year}
+  {2016}{\natexlab{d}})},\ \Eprint {http://arxiv.org/abs/1602.03842}
+  {arXiv:1602.03842 [astro-ph.HE]} \BibitemShut {NoStop}%
+%%CITATION = ARXIV:1602.03842;%%
+\bibitem [{\citenamefont {Abbott}\ \emph
+  {et~al.}(2016{\natexlab{e}})\citenamefont {Abbott} \emph
+  {et~al.}}]{Abbott:2016drs}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {B.~P.}\ \bibnamefont
+  {Abbott}} \emph {et~al.} (\bibinfo {collaboration} {Virgo, LIGO
+  Scientific}),\ }\bibfield  {title} {\enquote {\bibinfo {title} {{Supplement:
+  The Rate of Binary Black Hole Mergers Inferred from Advanced LIGO
+  Observations Surrounding GW150914}},}\ }\href {\doibase
+  10.3847/0067-0049/227/2/14} {\bibfield  {journal} {\bibinfo  {journal}
+  {Astrophys. J. Suppl.}\ }\textbf {\bibinfo {volume} {227}},\ \bibinfo {pages}
+  {14} (\bibinfo {year} {2016}{\natexlab{e}})},\ \Eprint
+  {http://arxiv.org/abs/1606.03939} {arXiv:1606.03939 [astro-ph.HE]}
+  \BibitemShut {NoStop}%
+%%CITATION = ARXIV:1606.03939;%%
+\bibitem [{\citenamefont {Wysocki}\ \emph {et~al.}(2018)\citenamefont
+  {Wysocki}, \citenamefont {Lange},\ and\ \citenamefont
+  {O.~'shaughnessy}}]{Wysocki:2018mpo}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {Daniel}\ \bibnamefont
+  {Wysocki}}, \bibinfo {author} {\bibfnamefont {Jacob}\ \bibnamefont {Lange}},
+  \ and\ \bibinfo {author} {\bibfnamefont {Richard}\ \bibnamefont
+  {O.~'shaughnessy}},\ }\bibfield  {title} {\enquote {\bibinfo {title}
+  {{Reconstructing phenomenological distributions of compact binaries via
+  gravitational wave observations}},}\ }\href@noop {} {\  (\bibinfo {year}
+  {2018})},\ \Eprint {http://arxiv.org/abs/1805.06442} {arXiv:1805.06442
+  [gr-qc]} \BibitemShut {NoStop}%
+%%CITATION = ARXIV:1805.06442;%%
+\bibitem [{\citenamefont {Fishbach}\ \emph {et~al.}(2018)\citenamefont
+  {Fishbach}, \citenamefont {Holz},\ and\ \citenamefont
+  {Farr}}]{Fishbach:2018edt}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {Maya}\ \bibnamefont
+  {Fishbach}}, \bibinfo {author} {\bibfnamefont {Daniel~E.}\ \bibnamefont
+  {Holz}}, \ and\ \bibinfo {author} {\bibfnamefont {Will~M.}\ \bibnamefont
+  {Farr}},\ }\bibfield  {title} {\enquote {\bibinfo {title} {{Does the Black
+  Hole Merger Rate Evolve with Redshift?}}}\ }\href {\doibase
+  10.3847/2041-8213/aad800} {\bibfield  {journal} {\bibinfo  {journal}
+  {Astrophys. J.}\ }\textbf {\bibinfo {volume} {863}},\ \bibinfo {pages} {L41}
+  (\bibinfo {year} {2018})},\ \bibinfo {note} {[Astrophys. J.
+  Lett.863,L41(2018)]},\ \Eprint {http://arxiv.org/abs/1805.10270}
+  {arXiv:1805.10270 [astro-ph.HE]} \BibitemShut {NoStop}%
+%%CITATION = ARXIV:1805.10270;%%
+\bibitem [{\citenamefont {Mandel}\ \emph {et~al.}(2018)\citenamefont {Mandel},
+  \citenamefont {Farr},\ and\ \citenamefont {Gair}}]{Mandel:2018mve}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {Ilya}\ \bibnamefont
+  {Mandel}}, \bibinfo {author} {\bibfnamefont {Will~M.}\ \bibnamefont {Farr}},
+  \ and\ \bibinfo {author} {\bibfnamefont {Jonathan~R.}\ \bibnamefont {Gair}},\
+  }\bibfield  {title} {\enquote {\bibinfo {title} {{Extracting distribution
+  parameters from multiple uncertain observations with selection biases}},}\
+  }\href@noop {} {\  (\bibinfo {year} {2018})},\ \Eprint
+  {http://arxiv.org/abs/1809.02063} {arXiv:1809.02063 [physics.data-an]}
+  \BibitemShut {NoStop}%
+%%CITATION = ARXIV:1809.02063;%%
+\bibitem [{\citenamefont {Thrane}\ and\ \citenamefont
+  {Talbot}(2018)}]{Thrane:2018qnx}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {Eric}\ \bibnamefont
+  {Thrane}}\ and\ \bibinfo {author} {\bibfnamefont {Colm}\ \bibnamefont
+  {Talbot}},\ }\bibfield  {title} {\enquote {\bibinfo {title} {{An introduction
+  to Bayesian inference in gravitational-wave astronomy: parameter estimation,
+  model selection, and hierarchical models}},}\ }\href@noop {} {\  (\bibinfo
+  {year} {2018})},\ \Eprint {http://arxiv.org/abs/1809.02293} {arXiv:1809.02293
+  [astro-ph.IM]} \BibitemShut {NoStop}%
+%%CITATION = ARXIV:1809.02293;%%
+\bibitem [{Note1()}]{Note1}%
+  \BibitemOpen
+  \bibinfo {note} {\protect \url {https://www.gw-openscience.org/}}\BibitemShut
+  {NoStop}%
+\bibitem [{\citenamefont {Fishbach}\ and\ \citenamefont
+  {Holz}(2017)}]{Fishbach:2017zga}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {Maya}\ \bibnamefont
+  {Fishbach}}\ and\ \bibinfo {author} {\bibfnamefont {Daniel~E.}\ \bibnamefont
+  {Holz}},\ }\bibfield  {title} {\enquote {\bibinfo {title} {{Where Are
+  LIGO’s Big Black Holes?}}}\ }\href {\doibase 10.3847/2041-8213/aa9bf6}
+  {\bibfield  {journal} {\bibinfo  {journal} {Astrophys. J.}\ }\textbf
+  {\bibinfo {volume} {851}},\ \bibinfo {pages} {L25} (\bibinfo {year}
+  {2017})},\ \Eprint {http://arxiv.org/abs/1709.08584} {arXiv:1709.08584
+  [astro-ph.HE]} \BibitemShut {NoStop}%
+%%CITATION = ARXIV:1709.08584;%%
+\bibitem [{\citenamefont {Carr}(1975)}]{Carr:1975qj}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {Bernard~J.}\
+  \bibnamefont {Carr}},\ }\bibfield  {title} {\enquote {\bibinfo {title} {{The
+  Primordial black hole mass spectrum}},}\ }\href {\doibase 10.1086/153853}
+  {\bibfield  {journal} {\bibinfo  {journal} {Astrophys. J.}\ }\textbf
+  {\bibinfo {volume} {201}},\ \bibinfo {pages} {1--19} (\bibinfo {year}
+  {1975})}\BibitemShut {NoStop}%
+%%CITATION = ASJOA,201,1;%%
+\bibitem [{\citenamefont {Carr}\ \emph {et~al.}(2016)\citenamefont {Carr},
+  \citenamefont {Kuhnel},\ and\ \citenamefont {Sandstad}}]{Carr:2016drx}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {Bernard}\ \bibnamefont
+  {Carr}}, \bibinfo {author} {\bibfnamefont {Florian}\ \bibnamefont {Kuhnel}},
+  \ and\ \bibinfo {author} {\bibfnamefont {Marit}\ \bibnamefont {Sandstad}},\
+  }\bibfield  {title} {\enquote {\bibinfo {title} {{Primordial Black Holes as
+  Dark Matter}},}\ }\href {\doibase 10.1103/PhysRevD.94.083504} {\bibfield
+  {journal} {\bibinfo  {journal} {Phys. Rev.}\ }\textbf {\bibinfo {volume}
+  {D94}},\ \bibinfo {pages} {083504} (\bibinfo {year} {2016})},\ \Eprint
+  {http://arxiv.org/abs/1607.06077} {arXiv:1607.06077 [astro-ph.CO]}
+  \BibitemShut {NoStop}%
+%%CITATION = ARXIV:1607.06077;%%
+\bibitem [{\citenamefont {Carr}\ \emph {et~al.}(2017)\citenamefont {Carr},
+  \citenamefont {Raidal}, \citenamefont {Tenkanen}, \citenamefont {Vaskonen},\
+  and\ \citenamefont {Veermäe}}]{Carr:2017jsz}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {Bernard}\ \bibnamefont
+  {Carr}}, \bibinfo {author} {\bibfnamefont {Martti}\ \bibnamefont {Raidal}},
+  \bibinfo {author} {\bibfnamefont {Tommi}\ \bibnamefont {Tenkanen}}, \bibinfo
+  {author} {\bibfnamefont {Ville}\ \bibnamefont {Vaskonen}}, \ and\ \bibinfo
+  {author} {\bibfnamefont {Hardi}\ \bibnamefont {Veermäe}},\ }\bibfield
+  {title} {\enquote {\bibinfo {title} {{Primordial black hole constraints for
+  extended mass functions}},}\ }\href {\doibase 10.1103/PhysRevD.96.023514}
+  {\bibfield  {journal} {\bibinfo  {journal} {Phys. Rev.}\ }\textbf {\bibinfo
+  {volume} {D96}},\ \bibinfo {pages} {023514} (\bibinfo {year} {2017})},\
+  \Eprint {http://arxiv.org/abs/1705.05567} {arXiv:1705.05567 [astro-ph.CO]}
+  \BibitemShut {NoStop}%
+%%CITATION = ARXIV:1705.05567;%%
+\bibitem [{\citenamefont {Dolgov}\ and\ \citenamefont
+  {Silk}(1993)}]{Dolgov:1992pu}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {Alexandre}\
+  \bibnamefont {Dolgov}}\ and\ \bibinfo {author} {\bibfnamefont {Joseph}\
+  \bibnamefont {Silk}},\ }\bibfield  {title} {\enquote {\bibinfo {title}
+  {{Baryon isocurvature fluctuations at small scales and baryonic dark
+  matter}},}\ }\href {\doibase 10.1103/PhysRevD.47.4244} {\bibfield  {journal}
+  {\bibinfo  {journal} {Phys. Rev.}\ }\textbf {\bibinfo {volume} {D47}},\
+  \bibinfo {pages} {4244--4255} (\bibinfo {year} {1993})}\BibitemShut {NoStop}%
+%%CITATION = PHRVA,D47,4244;%%
+\bibitem [{\citenamefont {Green}(2016)}]{Green:2016xgy}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {Anne~M.}\ \bibnamefont
+  {Green}},\ }\bibfield  {title} {\enquote {\bibinfo {title} {{Microlensing and
+  dynamical constraints on primordial black hole dark matter with an extended
+  mass function}},}\ }\href {\doibase 10.1103/PhysRevD.94.063530} {\bibfield
+  {journal} {\bibinfo  {journal} {Phys. Rev.}\ }\textbf {\bibinfo {volume}
+  {D94}},\ \bibinfo {pages} {063530} (\bibinfo {year} {2016})},\ \Eprint
+  {http://arxiv.org/abs/1609.01143} {arXiv:1609.01143 [astro-ph.CO]}
+  \BibitemShut {NoStop}%
+%%CITATION = ARXIV:1609.01143;%%
+\bibitem [{\citenamefont {Kannike}\ \emph {et~al.}(2017)\citenamefont
+  {Kannike}, \citenamefont {Marzola}, \citenamefont {Raidal},\ and\
+  \citenamefont {Veermäe}}]{Kannike:2017bxn}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {Kristjan}\
+  \bibnamefont {Kannike}}, \bibinfo {author} {\bibfnamefont {Luca}\
+  \bibnamefont {Marzola}}, \bibinfo {author} {\bibfnamefont {Martti}\
+  \bibnamefont {Raidal}}, \ and\ \bibinfo {author} {\bibfnamefont {Hardi}\
+  \bibnamefont {Veermäe}},\ }\bibfield  {title} {\enquote {\bibinfo {title}
+  {{Single Field Double Inflation and Primordial Black Holes}},}\ }\href
+  {\doibase 10.1088/1475-7516/2017/09/020} {\bibfield  {journal} {\bibinfo
+  {journal} {JCAP}\ }\textbf {\bibinfo {volume} {1709}},\ \bibinfo {pages}
+  {020} (\bibinfo {year} {2017})},\ \Eprint {http://arxiv.org/abs/1705.06225}
+  {arXiv:1705.06225 [astro-ph.CO]} \BibitemShut {NoStop}%
+%%CITATION = ARXIV:1705.06225;%%
+\bibitem [{\citenamefont {Vallisneri}\ \emph {et~al.}(2015)\citenamefont
+  {Vallisneri}, \citenamefont {Kanner}, \citenamefont {Williams}, \citenamefont
+  {Weinstein},\ and\ \citenamefont {Stephens}}]{Vallisneri:2014vxa}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {Michele}\ \bibnamefont
+  {Vallisneri}}, \bibinfo {author} {\bibfnamefont {Jonah}\ \bibnamefont
+  {Kanner}}, \bibinfo {author} {\bibfnamefont {Roy}\ \bibnamefont {Williams}},
+  \bibinfo {author} {\bibfnamefont {Alan}\ \bibnamefont {Weinstein}}, \ and\
+  \bibinfo {author} {\bibfnamefont {Branson}\ \bibnamefont {Stephens}},\
+  }\bibfield  {title} {\enquote {\bibinfo {title} {{The LIGO Open Science
+  Center}},}\ }\bibfield  {booktitle} {\emph {\bibinfo {booktitle}
+  {{Proceedings, 10th International LISA Symposium: Gainesville, Florida, USA,
+  May 18-23, 2014}}},\ }\href {\doibase 10.1088/1742-6596/610/1/012021}
+  {\bibfield  {journal} {\bibinfo  {journal} {J. Phys. Conf. Ser.}\ }\textbf
+  {\bibinfo {volume} {610}},\ \bibinfo {pages} {012021} (\bibinfo {year}
+  {2015})},\ \Eprint {http://arxiv.org/abs/1410.4839} {arXiv:1410.4839 [gr-qc]}
+  \BibitemShut {NoStop}%
+%%CITATION = ARXIV:1410.4839;%%
+\end{thebibliography}%
