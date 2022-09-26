@@ -143,6 +143,9 @@ urlcolor=blue           % url color
 \nc{\xstar}{x_*}
 \nc{\mpbh}{m_{\rm{pbh}}}
 \nc{\cR}{\mathcal{R}}
+\nc{\mU}{{\mathcal{U}}}
+\nc{\Mc}{{M_\mathrm{c}}}
+\nc{\Mf}{{M_\mathrm{f}}}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% main text %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
@@ -592,9 +595,9 @@ when estimating the merger rate (density) of PBHs.
 
 \subsection{Broken Power-law mass function}
 We now consider a power-law mass function of PBHs as \cite{Carr:1975qj}
-\e\label{bpower} 
-P(m) = \frac{\al-1}{M} \(\frac{m}{M}\)^{-\al},
-\q
+\begin{equation}
+	P(m)= \left(\frac{m_*}{\alpha_1+1}-\frac{m_*}{\alpha_2-1}\right)^{-1} \begin{cases}\left(m / m_*\right)^{\alpha_1}, & m<m_* \\ \left(m / m_*\right)^{-\alpha_2}, & m>m_*\end{cases}
+\end{equation}
 where $m>M$, and $\al>1$ is the power-law index. The power-law form is a commonly used mass function as it naturally arises if PBHs are formed from primordial energy density fluctuations due to a scale-invariant primordial power spectrum \cite{Carr:2016drx,Carr:2017jsz}.
 Note that $\vth=\{\al, M\}$ and the free parameters are 
 $\{\vth, R_0\} = \{\al, M, R_0\}$ in this case. 
@@ -650,11 +653,11 @@ We therefore conclude that the merger history effect can be safely ignored
 when estimating the merger rate (density) of PBHs.
 
 \subsection{CC mass function}
-We now consider a power-law mass function of PBHs as \cite{Carr:1975qj}
-\e\label{CC} 
-P(m) = \frac{\al-1}{M} \(\frac{m}{M}\)^{-\al},
+We now consider the critical collapse mass function taking the form of \cite{Niemeyer:1997mt,Yokoyama:1998xd,Carr:2016hva,Gow:2020cou}
+\e
+P(m, \alpha, M_{\mathrm{f}})=\frac{\alpha^2\,  m^\alpha}{M_{\mathrm{f}}^{1+\alpha}\, \Gamma(1 / \alpha)} \exp \left(-(m/M_{\mathrm{f}})^{\alpha}\right),
 \q
-where $m>M$, and $\al>1$ is the power-law index. The power-law form is a commonly used mass function as it naturally arises if PBHs are formed from primordial energy density fluctuations due to a scale-invariant primordial power spectrum \cite{Carr:2016drx,Carr:2017jsz}.
+where $\alpha$ is a universal exponent which is related to the critical collapse of radiation, and $M_{\mathrm{f}}$ is a mass scale at the order of horizon mass at the collapse epoch \cite{Carr:2016hva}. This mass function is supposed to be closely associated with a monochromatic power spectrum of the density fluctuations. In this case, there is an exponential upper cut-off at a mass scale of $M_{\mathrm{f}}$, but no lower mass cut-off. Here and after, we dub it as CC mass function.
 Note that $\vth=\{\al, M\}$ and the free parameters are 
 $\{\vth, R_0\} = \{\al, M, R_0\}$ in this case. 
 Using \Eq{mpbh} and \Eq{Fm}, it is easily to get
@@ -707,6 +710,53 @@ second-merger history to the one from first-merger history,
 $R_2(t_0)/R_1(t_0) = 0.5\%$.
 We therefore conclude that the merger history effect can be safely ignored
 when estimating the merger rate (density) of PBHs.
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{table}[htbp!]
+	\centering
+	%	\scriptsize
+	\begin{tabular}{lll}
+		\hline\hline
+		\textbf{Parameter\quad} & \textbf{Description} & \textbf{Prior} \\
+		\hline
+		\multicolumn{3}{c}{Lognormal PBH mass function} \\[1pt]
+		$\Mc$ & Peak mass in $\Msun$. & $\mU(5, 50)$\\
+		$\sigma_\mathrm{c}$ & Mass width. & $\mU(0.1, 2)$\\
+		\hline
+		\multicolumn{3}{c}{Power-law PBH mass function} \\[1pt]
+		$\Mmin$ & Lower mass cut-off in $\Msun$. & $\mU(3, 10)$\\
+		$\al$ & power-law index & $\mU(1.05, 4)$\\
+		\hline
+		\multicolumn{3}{c}{Broken Power-law PBH mass function} \\[1pt]
+%		$\M_{*}$ & to be filled & $\mU(3, 15)$\\
+		$\al_1$ & power-law index & $\mU(0, 15)$\\
+		$\al_2$ & power-law index & $\mU(1, 3)$\\
+		\hline
+		\multicolumn{3}{c}{Critical collapse (CC) PBH mass function} \\[1pt]
+		$\Mf$ & Horizon mass scale in $\Msun$. & $\mU(1, 50)$\\
+		$\al$ & Universal exponent. & $\mU(0, 5)$\\
+		\hline
+	\end{tabular}
+	\label{tab:priors}
+	\caption{Parameters and their prior distributions used in the Bayesian parameter estimations.}
+\end{table}
+
+\begin{table}[tbp!]
+	\centering
+	\begin{tabular}{l|c|c|c|c}
+		\hline\hline
+		& lognormal & power-law & broken power-law & CC \\
+		\hline
+		$\mathrm{BF}^{\mathrm{2nd}}_{\mathrm{1st}}$ & $0.9$ & $0.4$ & $0.69$ & $1.2$ \\
+		$\mathrm{BF}_{\mathrm{PL}}$ & $166$ & $1$ & $2$ & $139$ \\
+		$R_2/R_1$ & $0.011$ & $0.0095$ & $0.0098$ & $0.033$ \\
+		$\fpbh$ & $0.0020$ & $0.0026$ & $0.0026$ & $0.0016$ \\
+		\hline
+	\end{tabular}
+\end{table}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{\label{conclusion}Conclusion}
 

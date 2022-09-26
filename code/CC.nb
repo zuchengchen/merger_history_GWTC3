@@ -10,10 +10,10 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       158,          7]
-NotebookDataLength[    168418,       3806]
-NotebookOptionsPosition[    161328,       3675]
-NotebookOutlinePosition[    161748,       3692]
-CellTagsIndexPosition[    161705,       3689]
+NotebookDataLength[    167503,       3781]
+NotebookOptionsPosition[    160413,       3650]
+NotebookOutlinePosition[    160833,       3667]
+CellTagsIndexPosition[    160790,       3664]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
@@ -2995,82 +2995,73 @@ uzykt2nfQW6Le6svYBGXzc7zW7xBq/5AvEPz/dwS31x9Dq9xyfwsz2Aa2fjG
               0.9889323605480034, 0.8423309013700084, 0.5656903176988104}}, {{
               1., 0.95, 0.75}}}, {{
                 Rational[-15, 2], -180}, {
-                Rational[15, 2], 180}}], {Antialiasing -> False, 
+                Rational[15, 2], 180}}], {
+              GrayLevel[0], 
               AbsoluteThickness[0.1], 
-              Directive[
-               Opacity[0.3], 
-               GrayLevel[0]], 
-              LineBox[
-               NCache[{{
-                  Rational[15, 2], -180}, {
-                  Rational[-15, 2], -180}, {
-                  Rational[-15, 2], 180}, {
-                  Rational[15, 2], 180}, {
-                  Rational[15, 2], -180}}, {{
-                 7.5, -180}, {-7.5, -180}, {-7.5, 180}, {7.5, 180}, {
-                 7.5, -180}}]]}, {
-              CapForm[None], {{
-                Directive[
-                 GrayLevel[0], 
-                 Opacity[0.5], 
-                 CapForm["Butt"]], 
-                CapForm["Butt"], 
-                LineBox[
-                 NCache[{{
-                    Rational[-15, 2], -120.}, {
-                    Rational[15, 2], -120.}}, {{-7.5, -120.}, {
-                  7.5, -120.}}]]}, {
-                Directive[
-                 GrayLevel[0], 
-                 Opacity[0.5], 
-                 CapForm["Butt"]], 
-                CapForm["Butt"], 
-                LineBox[
-                 NCache[{{
-                    Rational[-15, 2], -59.999999999999986`}, {
-                    Rational[
-                    15, 2], -59.999999999999986`}}, {{-7.5, \
+              Opacity[0.3], 
+              StyleBox[
+               LineBox[
+                NCache[{{
+                   Rational[15, 2], -180}, {
+                   Rational[-15, 2], -180}, {
+                   Rational[-15, 2], 180}, {
+                   Rational[15, 2], 180}, {
+                   Rational[15, 2], -180}}, {{
+                  7.5, -180}, {-7.5, -180}, {-7.5, 180}, {7.5, 180}, {
+                  7.5, -180}}]], Antialiasing -> False]}, {
+              CapForm[None], {
+               GrayLevel[0], 
+               Opacity[0.5], 
+               CapForm["Butt"], 
+               LineBox[
+                NCache[{{
+                   Rational[-15, 2], -120.}, {
+                   Rational[15, 2], -120.}}, {{-7.5, -120.}, {
+                 7.5, -120.}}]]}, {
+               GrayLevel[0], 
+               Opacity[0.5], 
+               CapForm["Butt"], 
+               LineBox[
+                NCache[{{
+                   Rational[-15, 2], -59.999999999999986`}, {
+                   Rational[
+                   15, 2], -59.999999999999986`}}, {{-7.5, \
 -59.999999999999986`}, {7.5, -59.999999999999986`}}]]}, {
-                Directive[
-                 GrayLevel[0], 
-                 Opacity[0.5], 
-                 CapForm["Butt"]], 
-                CapForm["Butt"], 
-                LineBox[
-                 NCache[{{
-                    Rational[-15, 2], -2.842170943040401*^-14}, {
-                    Rational[
-                    15, 2], -2.842170943040401*^-14}}, {{-7.5, \
+               GrayLevel[0], 
+               Opacity[0.5], 
+               CapForm["Butt"], 
+               LineBox[
+                NCache[{{
+                   Rational[-15, 2], -2.842170943040401*^-14}, {
+                   Rational[
+                   15, 2], -2.842170943040401*^-14}}, {{-7.5, \
 -2.842170943040401*^-14}, {7.5, -2.842170943040401*^-14}}]]}, {
-                Directive[
+               GrayLevel[0], 
+               Opacity[0.5], 
+               CapForm["Butt"], 
+               LineBox[
+                NCache[{{
+                   Rational[-15, 2], 59.99999999999997}, {
+                   Rational[15, 2], 59.99999999999997}}, {{-7.5, 
+                 59.99999999999997}, {7.5, 59.99999999999997}}]]}, {
+               GrayLevel[0], 
+               Opacity[0.5], 
+               CapForm["Butt"], 
+               LineBox[
+                NCache[{{
+                   Rational[-15, 2], 120.}, {
+                   Rational[15, 2], 120.}}, {{-7.5, 120.}, {7.5, 120.}}]]}}, 
+             StyleBox[
+              StyleBox[{{
                  GrayLevel[0], 
-                 Opacity[0.5], 
-                 CapForm["Butt"]], 
-                CapForm["Butt"], 
-                LineBox[
-                 NCache[{{
-                    Rational[-15, 2], 59.99999999999997}, {
-                    Rational[15, 2], 59.99999999999997}}, {{-7.5, 
-                  59.99999999999997}, {7.5, 59.99999999999997}}]]}, {
-                Directive[
-                 GrayLevel[0], 
-                 Opacity[0.5], 
-                 CapForm["Butt"]], 
-                CapForm["Butt"], 
-                LineBox[
-                 NCache[{{
-                    Rational[-15, 2], 120.}, {
-                    Rational[15, 2], 120.}}, {{-7.5, 120.}, {7.5, 120.}}]]}}}, 
-             StyleBox[{Antialiasing -> False, 
-               StyleBox[
-                LineBox[{{7.5, -180.}, {7.5, 180.}}], {
-                 Directive[
-                  AbsoluteThickness[0.2], 
-                  Opacity[0.3], 
-                  GrayLevel[0]]}, StripOnInput -> False], 
-               StyleBox[
-                StyleBox[{{
-                   StyleBox[
+                 AbsoluteThickness[0.2], 
+                 Opacity[0.3], 
+                 LineBox[{{7.5, -180.}, {7.5, 180.}}]}, {
+                 GrayLevel[0.4], 
+                 AbsoluteThickness[0.2], 
+                 StyleBox[{{
+                    GrayLevel[0.4], 
+                    AbsoluteThickness[0.2], 
                     LineBox[{{{7.5, -119.99999999999999`}, 
                     Offset[{4., 0}, {7.5, -119.99999999999999`}]}, {{
                     7.5, -59.99999999999999}, 
@@ -3080,83 +3071,67 @@ uzykt2nfQW6Le6svYBGXzc7zW7xBq/5AvEPz/dwS31x9Dq9xyfwsz2Aa2fjG
                      59.99999999999995}, 
                     Offset[{4., 0}, {7.5, 59.99999999999995}]}, {{7.5, 
                     119.99999999999999`}, 
-                    Offset[{4., 0}, {7.5, 119.99999999999999`}]}}], {
-                    Directive[
+                    Offset[{4., 0}, {7.5, 119.99999999999999`}]}}]}, {
+                    GrayLevel[0], 
+                    Opacity[1], 
+                    StyleBox[{{
+                    GrayLevel[0], 
                     AbsoluteThickness[0.2], 
-                    GrayLevel[0.4]]}, StripOnInput -> False]}, 
-                  StyleBox[
-                   StyleBox[{{
-                    StyleBox[{
+                    Opacity[1], 
                     InsetBox[
-                    FormBox[
                     TagBox[
                     InterpretationBox[
                     StyleBox["\"0.1\"", ShowStringCharacters -> False], 0.1, 
                     AutoDelete -> True], NumberForm[#, {
-                    DirectedInfinity[1], 1}]& ], TraditionalForm], 
+                    DirectedInfinity[1], 1}]& ], 
                     Offset[{7., 0.}, {7.5, -119.99999999999999`}], 
                     ImageScaled[{0, 0.5}], Automatic, {1, 0}], 
                     InsetBox[
-                    FormBox[
                     TagBox[
                     InterpretationBox[
                     StyleBox["\"0.2\"", ShowStringCharacters -> False], 0.2, 
                     AutoDelete -> True], NumberForm[#, {
-                    DirectedInfinity[1], 1}]& ], TraditionalForm], 
+                    DirectedInfinity[1], 1}]& ], 
                     Offset[{7., 0.}, {7.5, -59.99999999999999}], 
                     ImageScaled[{0, 0.5}], Automatic, {1, 0}], 
                     InsetBox[
-                    FormBox[
                     TagBox[
                     InterpretationBox[
                     StyleBox["\"0.3\"", ShowStringCharacters -> False], 0.3, 
                     AutoDelete -> True], NumberForm[#, {
-                    DirectedInfinity[1], 1}]& ], TraditionalForm], 
+                    DirectedInfinity[1], 1}]& ], 
                     Offset[{7., 0.}, {7.5, -2.7025663862589724`*^-14}], 
                     ImageScaled[{0, 0.5}], Automatic, {1, 0}], 
                     InsetBox[
-                    FormBox[
                     TagBox[
                     InterpretationBox[
                     StyleBox["\"0.4\"", ShowStringCharacters -> False], 0.4, 
                     AutoDelete -> True], NumberForm[#, {
-                    DirectedInfinity[1], 1}]& ], TraditionalForm], 
+                    DirectedInfinity[1], 1}]& ], 
                     Offset[{7., 0.}, {7.5, 59.99999999999995}], 
                     ImageScaled[{0, 0.5}], Automatic, {1, 0}], 
                     InsetBox[
-                    FormBox[
                     TagBox[
                     InterpretationBox[
                     StyleBox["\"0.5\"", ShowStringCharacters -> False], 0.5, 
                     AutoDelete -> True], NumberForm[#, {
-                    DirectedInfinity[1], 1}]& ], TraditionalForm], 
+                    DirectedInfinity[1], 1}]& ], 
                     Offset[{7., 0.}, {7.5, 119.99999999999999`}], 
-                    ImageScaled[{0, 0.5}], Automatic, {1, 0}]}, {
-                    Directive[
-                    AbsoluteThickness[0.2], 
-                    GrayLevel[0.4]], {
-                    Directive[
-                    Opacity[1], 
-                    GrayLevel[0]]}}, StripOnInput -> False]}, {}}, {{
-                    Directive[
-                    Opacity[1], 
-                    GrayLevel[0]]}}, StripOnInput -> False], {
-                   "GraphicsLabel"}, StripOnInput -> False]}, {
-                 "GraphicsTicks"}, StripOnInput -> False], {{
-                  Directive[
-                   AbsoluteThickness[0.2], 
-                   GrayLevel[0.4]]}}, StripOnInput -> False]}, {
-              "GraphicsAxes"}, StripOnInput -> False]}, PlotRangePadding -> 
-            Scaled[0.02], PlotRange -> All, Frame -> True, 
-            FrameTicks -> {{False, False}, {True, False}}, FrameStyle -> 
-            Opacity[0], FrameTicksStyle -> Opacity[0], 
-            ImageSize -> {Automatic, 360}, BaseStyle -> {}], Alignment -> 
+                    ImageScaled[{0, 0.5}], Automatic, {1, 0}]}, {}}, 
+                    "GraphicsLabel", StripOnInput -> False]}}, 
+                  "GraphicsTicks", StripOnInput -> False]}}, Antialiasing -> 
+               False], "GraphicsAxes", StripOnInput -> False]}, 
+            BaseStyle -> {}, Frame -> True, FrameStyle -> Opacity[0], 
+            FrameTicks -> {{False, False}, {True, False}}, FrameTicksStyle -> 
+            Opacity[0], ImageSize -> {Automatic, 315.5555555555566}, 
+            PlotRange -> All, PlotRangePadding -> Scaled[0.02]], Alignment -> 
            Left, AppearanceElements -> None, ImageMargins -> {{5, 5}, {5, 5}},
-            ImageSizeAction -> "ResizeToFit"], LineIndent -> 0, StripOnInput -> 
-          False], {
-          GrayLevel[0], FontFamily -> "Arial"}, Background -> Automatic, 
-         StripOnInput -> False], TraditionalForm]}, "BarLegend", 
-      DisplayFunction -> (#& ), 
+            ImageSizeAction -> "ResizeToFit"], StripOnInput -> False, 
+          LineIndent -> 0], StripOnInput -> False, LineColor -> GrayLevel[0], 
+         FrontFaceColor -> GrayLevel[0], BackFaceColor -> GrayLevel[0], 
+         GraphicsColor -> GrayLevel[0], FontFamily -> "Arial", FontColor -> 
+         GrayLevel[0], Background -> Automatic], TraditionalForm]}, 
+      "BarLegend", DisplayFunction -> (#& ), 
       InterpretationFunction :> (RowBox[{"BarLegend", "[", 
          RowBox[{
            RowBox[{"{", 
@@ -3794,19 +3769,19 @@ Cell[59358, 1691, 174, 3, 84, "Output",ExpressionUUID->"58b957a6-d54f-47d9-a52f-
 Cell[59547, 1697, 731, 17, 148, "Input",ExpressionUUID->"0be83eed-e4ab-4a11-b06e-9728abe840ad"],
 Cell[CellGroupData[{
 Cell[60303, 1718, 3384, 88, 381, "Input",ExpressionUUID->"fa8363e4-aafc-48b2-9e02-6fb7bf1ed22e"],
-Cell[63690, 1808, 91467, 1664, 722, "Output",ExpressionUUID->"538fad6e-f047-4658-88a9-5ed3649f6fc5"]
+Cell[63690, 1808, 90552, 1639, 694, "Output",ExpressionUUID->"538fad6e-f047-4658-88a9-5ed3649f6fc5"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[155194, 3477, 1247, 38, 130, "Input",ExpressionUUID->"dc04889f-d704-4de7-a0e1-bf76cc17273f"],
-Cell[156444, 3517, 1193, 37, 168, "Output",ExpressionUUID->"75c1527c-56c0-470a-b020-6b7bfac0cda2"]
+Cell[154279, 3452, 1247, 38, 130, "Input",ExpressionUUID->"dc04889f-d704-4de7-a0e1-bf76cc17273f"],
+Cell[155529, 3492, 1193, 37, 168, "Output",ExpressionUUID->"75c1527c-56c0-470a-b020-6b7bfac0cda2"]
 }, Open  ]],
-Cell[157652, 3557, 1260, 36, 168, "Input",ExpressionUUID->"3042f142-ca79-4a2b-80f6-4f62b359b785"],
+Cell[156737, 3532, 1260, 36, 168, "Input",ExpressionUUID->"3042f142-ca79-4a2b-80f6-4f62b359b785"],
 Cell[CellGroupData[{
-Cell[158937, 3597, 329, 6, 53, "Input",ExpressionUUID->"62d57ce6-2fff-4d44-801d-ce9e8232793f"],
-Cell[159269, 3605, 1667, 55, 191, "Output",ExpressionUUID->"8594dd47-15fd-4e87-b5a8-95b73de645b4"]
+Cell[158022, 3572, 329, 6, 53, "Input",ExpressionUUID->"62d57ce6-2fff-4d44-801d-ce9e8232793f"],
+Cell[158354, 3580, 1667, 55, 191, "Output",ExpressionUUID->"8594dd47-15fd-4e87-b5a8-95b73de645b4"]
 }, Open  ]],
-Cell[160951, 3663, 202, 4, 53, "Input",ExpressionUUID->"defd4e85-b418-4f3f-9bf4-efdb3967ccaa"],
-Cell[161156, 3669, 156, 3, 53, "Input",ExpressionUUID->"f66e215f-e145-43af-8f25-e45bd6f5b8e7"]
+Cell[160036, 3638, 202, 4, 53, "Input",ExpressionUUID->"defd4e85-b418-4f3f-9bf4-efdb3967ccaa"],
+Cell[160241, 3644, 156, 3, 53, "Input",ExpressionUUID->"f66e215f-e145-43af-8f25-e45bd6f5b8e7"]
 }, Open  ]]
 }
 ]
