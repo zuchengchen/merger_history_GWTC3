@@ -500,7 +500,7 @@ The posteriors of parameters $\{\vth, R_0\} = \{m_c, \s, R_0\}$ are shown
 in \Fig{posterior-log}.
 \begin{figure}[htbp!]
 	\centering
-	\includegraphics[width = 0.48\textwidth]{post-log.pdf}
+	\includegraphics[width=0.5\textwidth]{post-log.pdf}
 	\caption{\label{posterior-log}
 		The marginalized one- and two-dimensional posterior distributions for 
 		parameters $\{\vth, R_0\} = \{m_c, \s, R_0\}$ in the log-normal mass function of PBHs, by using $10$ BBH events from \lvc\ O1 and O2 observing runs.
@@ -510,7 +510,7 @@ in \Fig{posterior-log}.
 
 \begin{figure}[htbp!]
 	\centering
-	\includegraphics[width = 0.45\textwidth]{ratio-log.pdf}
+	\includegraphics[width=0.5\textwidth]{ratio-log.pdf}
 	\caption{\label{ratio-log}
 		The ratio of merger rate density from second-merger history
 		to that from first-merger history,
@@ -560,7 +560,7 @@ in \Fig{posterior-power}.
 
 \begin{figure}[htbp!]
 	\centering
-	\includegraphics[width = 0.48\textwidth]{post-power.pdf}
+	\includegraphics[width=0.5\textwidth]{post-power.pdf}
 	\caption{\label{posterior-power}
 		The marginalized one- and two-dimensional posterior distributions for 
     parameters $\{\vth, R_0\} = \{\al, M, R_0\}$ in the power-law mass function 
@@ -571,7 +571,7 @@ in \Fig{posterior-power}.
 
 \begin{figure}[htbp!]
 	\centering
-	\includegraphics[width = 0.45\textwidth]{ratio-power.pdf}
+	\includegraphics[width=0.5\textwidth]{ratio-power.pdf}
 	\caption{\label{ratio-power}
 		The ratio of merger rate density from second-merger history
         to that from first-merger history,
@@ -590,7 +590,123 @@ $R_2(t_0)/R_1(t_0) = 0.5\%$.
 We therefore conclude that the merger history effect can be safely ignored
 when estimating the merger rate (density) of PBHs.
 
+\subsection{Broken Power-law mass function}
+We now consider a power-law mass function of PBHs as \cite{Carr:1975qj}
+\e\label{bpower} 
+P(m) = \frac{\al-1}{M} \(\frac{m}{M}\)^{-\al},
+\q
+where $m>M$, and $\al>1$ is the power-law index. The power-law form is a commonly used mass function as it naturally arises if PBHs are formed from primordial energy density fluctuations due to a scale-invariant primordial power spectrum \cite{Carr:2016drx,Carr:2017jsz}.
+Note that $\vth=\{\al, M\}$ and the free parameters are 
+$\{\vth, R_0\} = \{\al, M, R_0\}$ in this case. 
+Using \Eq{mpbh} and \Eq{Fm}, it is easily to get
+\e
+\mpbh = M \frac{\al}{\al-1},
+\q
+\e 
+F(m) = \frac{\al}{m} \(\frac{m}{M}\)^{-\al}.
+\q
 
+Using data of $10$ BBHs observed by \lvc\ O1 and O2 observations and performing
+the hierarchical Bayesian inference, we obtain $\al = 2.41^{+1.00}_{-0.87}$,
+$M = 7.4^{+1.4}_{-3.3} \Msun$, and $R_0 = 48^{+37}_{-24} \gpcyr$.
+It is then easy to infer the abundance of PBHs in CDM to be 
+$\fpbh = 2.8^{+1.8}_{-1.2} \times 10^{-3}$ from the posterior distribution of local merger rate $R_0$.
+The results of local merger rate and abundance of PBHs are consistent with
+the previous estimations, confirming that the main components of CDM should
+not be made of stellar mass PBHs.
+The posteriors of parameters $\{\vth, R_0\} = \{\al, M, R_0\}$ are shown 
+in \Fig{posterior-power}.
+
+\begin{figure}[htbp!]
+	\centering
+	\includegraphics[width=0.5\textwidth]{post-bpower.pdf}
+	\caption{\label{posterior-bpower}
+		The marginalized one- and two-dimensional posterior distributions for 
+		parameters $\{\vth, R_0\} = \{\al, M, R_0\}$ in the power-law mass function 
+		of PBHs, by using $10$ BBH events from \lvc\ O1 and O2 observing runs.
+		The contours are at the $68\%$ and $95\%$ credible levels, respectively. 
+	}
+\end{figure}
+
+\begin{figure}[htbp!]
+	\centering
+	\includegraphics[width=0.5\textwidth]{ratio-bpower.pdf}
+	\caption{\label{ratio-bpower}
+		The ratio of merger rate density from second-merger history
+		to that from first-merger history,
+		$\cR_2(t_0, m_1, m_2)/\cR_1(t_0, m_1, m_2)$. Note that the parameters $\{\al, M\}$ in \Eq{power} are fixed to their best-fit values.
+	}
+\end{figure}
+
+\Fig{ratio-power} shows the ratio of merger rate density from second-merger history
+to the one from first-merger history, namely 
+$\cR_2(t_0, m_1, m_2)/\cR_1(t_0, m_1, m_2)$, by fixing $\{\vth, R_0\}$ to their best-fit values.
+It is clearly that the correction of total merger rate density from 
+second-merger history is less than $10\%$.
+It is then readily to calculate the ratio of merger rate from 
+second-merger history to the one from first-merger history, 
+$R_2(t_0)/R_1(t_0) = 0.5\%$.
+We therefore conclude that the merger history effect can be safely ignored
+when estimating the merger rate (density) of PBHs.
+
+\subsection{CC mass function}
+We now consider a power-law mass function of PBHs as \cite{Carr:1975qj}
+\e\label{CC} 
+P(m) = \frac{\al-1}{M} \(\frac{m}{M}\)^{-\al},
+\q
+where $m>M$, and $\al>1$ is the power-law index. The power-law form is a commonly used mass function as it naturally arises if PBHs are formed from primordial energy density fluctuations due to a scale-invariant primordial power spectrum \cite{Carr:2016drx,Carr:2017jsz}.
+Note that $\vth=\{\al, M\}$ and the free parameters are 
+$\{\vth, R_0\} = \{\al, M, R_0\}$ in this case. 
+Using \Eq{mpbh} and \Eq{Fm}, it is easily to get
+\e
+\mpbh = M \frac{\al}{\al-1},
+\q
+\e 
+F(m) = \frac{\al}{m} \(\frac{m}{M}\)^{-\al}.
+\q
+
+Using data of $10$ BBHs observed by \lvc\ O1 and O2 observations and performing
+the hierarchical Bayesian inference, we obtain $\al = 2.41^{+1.00}_{-0.87}$,
+$M = 7.4^{+1.4}_{-3.3} \Msun$, and $R_0 = 48^{+37}_{-24} \gpcyr$.
+It is then easy to infer the abundance of PBHs in CDM to be 
+$\fpbh = 2.8^{+1.8}_{-1.2} \times 10^{-3}$ from the posterior distribution of local merger rate $R_0$.
+The results of local merger rate and abundance of PBHs are consistent with
+the previous estimations, confirming that the main components of CDM should
+not be made of stellar mass PBHs.
+The posteriors of parameters $\{\vth, R_0\} = \{\al, M, R_0\}$ are shown 
+in \Fig{posterior-power}.
+
+\begin{figure}[htbp!]
+	\centering
+	\includegraphics[width=0.5\textwidth]{post-CC.pdf}
+	\caption{\label{post-CC}
+		The marginalized one- and two-dimensional posterior distributions for 
+		parameters $\{\vth, R_0\} = \{\al, M, R_0\}$ in the power-law mass function 
+		of PBHs, by using $10$ BBH events from \lvc\ O1 and O2 observing runs.
+		The contours are at the $68\%$ and $95\%$ credible levels, respectively. 
+	}
+\end{figure}
+
+\begin{figure}[htbp!]
+	\centering
+	\includegraphics[width=0.5\textwidth]{ratio-CC.pdf}
+	\caption{\label{ratio-CC}
+		The ratio of merger rate density from second-merger history
+		to that from first-merger history,
+		$\cR_2(t_0, m_1, m_2)/\cR_1(t_0, m_1, m_2)$. Note that the parameters $\{\al, M\}$ in \Eq{power} are fixed to their best-fit values.
+	}
+\end{figure}
+
+\Fig{ratio-power} shows the ratio of merger rate density from second-merger history
+to the one from first-merger history, namely 
+$\cR_2(t_0, m_1, m_2)/\cR_1(t_0, m_1, m_2)$, by fixing $\{\vth, R_0\}$ to their best-fit values.
+It is clearly that the correction of total merger rate density from 
+second-merger history is less than $10\%$.
+It is then readily to calculate the ratio of merger rate from 
+second-merger history to the one from first-merger history, 
+$R_2(t_0)/R_1(t_0) = 0.5\%$.
+We therefore conclude that the merger history effect can be safely ignored
+when estimating the merger rate (density) of PBHs.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{\label{conclusion}Conclusion}
 
@@ -615,7 +731,7 @@ mass PBHs.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% acknowledgments %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \begin{acknowledgments}
 % We thank the referee for providing constructive comments and suggestions to improve the quality of this paper. 
-We would also like to thank Xingjiang Zhu, Shen-Shi Du for useful conversations.
+We would also like to thank Xingjiang Zhu, Xiao-Jin Liu, Shen-Shi Du, and Zhu Yi for useful discussions.
 This work is supported by grants from National Natural Science Foundation of China (grant No.11847107). 
 This research has made use of data, software and/or web tools obtained 
 from the Gravitational Wave Open Science Center \cite{Vallisneri:2014vxa}
