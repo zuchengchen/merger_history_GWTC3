@@ -1,49 +1,21 @@
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%% preamble %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\documentclass[
-%a4paper,       % letterpaper, a4paper, a5paper
-%10pt,              % 10pt, 11pt, 12pt
-reprint,           % journal's actual layout
-%preprint,          % 12pt, single-column
-superscriptaddress,% authors with affiliations via superscripts
-amsmath,           % add AMS-Latex features
-amssymb,           % add extra AMS symbols, including amsfonts
-aps,               % aps or aip
-prd,               % prl, pra, prb, prc, prd, pre, prstab
-%showpacs,          % make PACS codes appear
-notitlepage,       % control appearance of title page
-longbibliography,  % show  article titles in the bibliography
-floatfix,          % process floats as early as possible
-showkeys,          % option to make keywords appear
-%titlepage,         %
-%eqsecnum,          % number equations by section
-]{revtex4-1}
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%%%%%%%%%%%%%%%%%%%%%%%%%% load packages %%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\documentclass[twocolumn]{aastex631}
+%\documentclass[twocolumn,linenumbers]{aastex631}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% load packages %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\usepackage{ulem}
+\hypersetup{linkcolor=red,citecolor=blue,filecolor=cyan,urlcolor=magenta}
+\usepackage{amsmath}
+%\usepackage{subfigure}
+\usepackage{float}
 \usepackage{tensor}     % manipulate tensors
 \usepackage{graphicx}   % include figures
-\usepackage[
-colorlinks=true,        % color link
-citecolor=blue,         % cite color
-linkcolor=blue,         % link color
-urlcolor=blue           % url color
-]{hyperref}             % create hyperlinks
 \usepackage{bm}         % \bm{<text>} Bold math symbols
 \usepackage{xcolor}     % textcolor
-%\usepackage{dcolumn}    % Align table columns on decimal point
-%\usepackage{array}      % dcolumn depends on array
-\usepackage{tabulary}
 \usepackage{color}      % \textcolor{declared-color}{text}
 %\usepackage{longtable}  % large table\
 %\usepackage{fontspec} % accented characters for .bib file using XeLaTex
 \usepackage[section]{placeins} % figures processing
-%\renewcommand{\arraystretch}{1.25}
-%\arraycolsep 10pt
+\usepackage[utf8]{inputenc} % bibtex formatting
 
-% User-defined commands
-\renewcommand{\vec}[1]{\boldsymbol{#1}} % Uncomment for BOLD vectors.
-\def\Bs{{\overline{B}}_s}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% new commands %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \newcommand{\nc}{\newcommand*} 
@@ -150,6 +122,16 @@ urlcolor=blue           % url color
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% main text %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Reintroduced the \received and \accepted commands from AASTeX v5.2
+%\received{}
+%\revised{}
+%\accepted{}
+%\published{}
+%% Command to document which AAS Journal the manuscript was submitted to.
+%% Adds "Submitted to " the arguement.
+%\submitjournal{ApJ}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \begin{document}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 	
@@ -157,13 +139,13 @@ urlcolor=blue           % url color
 \title{The merger history of primordial-black-hole binaries inferred from GWTC-3}
 	
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% author %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\author{Zu-Cheng~Chen}
+\author[0000-0001-7016-9934]{Zu-Cheng~Chen}
 \email{zucheng.chen@bnu.edu.cn}
 \affiliation{Department of Astronomy, Beijing Normal University, Beijing 100875, China}
 \affiliation{Advanced Institute of Natural Sciences, Beijing Normal University, Zhuhai 519087, China}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% author %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\author{Zhi-Qiang~You}
+\author[0000-0002-3309-415X]{Zhi-Qiang~You}
 \email{zhiqiang.you@bnu.edu.cn}
 \affiliation{Department of Astronomy, Beijing Normal University, Beijing 100875, China}
 \affiliation{Advanced Institute of Natural Sciences, Beijing Normal University, Zhuhai 519087, China}
@@ -203,11 +185,8 @@ mass PBHs.
 
 %\keywords{primordial black holes, merger rate, merger history}
 \end{abstract}
-
-
-\pacs{???}
 	
-\maketitle
+%\maketitle
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -295,9 +274,10 @@ a log-normal mass function respectively.
 Finally, we summarize and discuss our results in \Sec{conclusion}.
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\section{\label{merger}Merger rate distribution of PBHs}
-In this section, we will briefly review the calculation of merger rate density
-by closely following \cite{Liu:2019rnx}.
+\section{\label{merger}Merger rate density distribution of PBH binaries}
+
+In this section, we will outline the calculation of merger rate density when taking into account the PBH merger history effect. We refer to \cite{Liu:2019rnx} for more details.
+
 We denote the probability distribution function (PDF) of PBH masses by $P(m)$
 which satisfies the following normalization condition
 \e\label{norm}
@@ -319,7 +299,6 @@ present total average number density of PBHs, $F(m)$, can be obtained by
 \e\label{Fm} 
     F(m) = P(m) \frac{\mpbh}{m}.
 \q 
-
 
 With the above definitions at hand, one can go directly to estimate the merger rate densities of PBH binaries contributed from different merger processes. We assume that PBHs are randomly distributed in the early Universe when they decouple from the cosmic background evolution \cite{Nakamura:1997sm,Sasaki:2016jop,Ali-Haimoud:2017rtz}. Due to gravitational interactions, two nearest PBHs would attract each other and form a bound system if they get the angular momentum from the torque of the third closest PBH. Because of gravitational radiations, PBH binaries would eventually merge and may be detected by \lvc. Let us consider the first-merger process now. Assuming PBHs posses a random distribution in the early Universe, the differential distribution, for three PBHs with masses $(m_i, m_i+dm_i)$, $(m_j, m_j+dm_j)$ and  $(m_l, m_l+dm_l)$, is given by \cite{Liu:2019rnx}
 \e\label{dP1}
@@ -728,7 +707,7 @@ when estimating the merger rate (density) of PBHs.
 		$\al$ & power-law index & $\mU(1.05, 4)$\\
 		\hline
 		\multicolumn{3}{c}{Broken Power-law PBH mass function} \\[1pt]
-%		$\M_{*}$ & to be filled & $\mU(3, 15)$\\
+		$M_*$ & to be filled & $\mU(3, 15)$\\
 		$\al_1$ & power-law index & $\mU(0, 15)$\\
 		$\al_2$ & power-law index & $\mU(1, 3)$\\
 		\hline
