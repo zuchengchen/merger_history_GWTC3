@@ -151,12 +151,12 @@
 \affiliation{Advanced Institute of Natural Sciences, Beijing Normal University, Zhuhai 519087, China}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% author %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\author[0000-0002-3309-415X]{You~Wu}
+\author{You~Wu}
 \email{youwuphy@gmail.com}
 \affiliation{College of Mathematics and Physics, Hunan University of Arts and Science, Changde, 415000, China}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% author %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\author[0000-0002-3309-415X]{Lang~Liu}
+\author{Lang~Liu}
 \email{Corresponding author: liulang@bnu.edu.cn}
 \affiliation{Department of Astronomy, Beijing Normal University, Beijing 100875, China}
 \affiliation{Advanced Institute of Natural Sciences, Beijing Normal University, Zhuhai 519087, China}
@@ -278,29 +278,27 @@ Finally, we summarize and discuss our results in \Sec{conclusion}.
 
 In this section, we will outline the calculation of merger rate density when taking into account the PBH merger history effect. We refer to \cite{Liu:2019rnx} for more details.
 
-We denote the probability distribution function (PDF) of PBH masses by $P(m)$
-which satisfies the following normalization condition
+The BBHs observed by LVK suggest that BHs should have a broad mass distribution, and hence we consider an extended mass function for PBHs. Here, we denote the probability distribution function (PDF) of PBH masses by $P(m)$ and demand the PDF to be normalized such that
 \e\label{norm}
     \int_{0}^{\infty} P(m)\, \rd m = 1.
 \q 
-Consequently the abundance of PBHs in the mass interval $(m, m+\rd m)$ is given 
-by \cite{Chen:2018rzo}
+Assuming the fraction of PBHs in CDM is $\fpbh$, we can estimate the abundance of PBHs in the mass interval $(m, m+\rd m)$ as \citep{Chen:2018rzo}
 \e 
     0.85 \fpbh\, P(m)\, \rd m,
 \q 
-where $\fpbh$ is the fraction of PBHs in CDM, and the coefficient $0.85$ is roughly the fraction of CDM in non-relativistic matter.
-Similar to \cite{Liu:2019rnx}, one may define a quantity $\mpbh$ as
+where the coefficient $0.85$ is roughly the fraction of CDM in non-relativistic matter including both CDM and baryons. Following \cite{Liu:2019rnx}, we may also define the ``averaged" PBH mass, $\mpbh$, as
 \e\label{mpbh}
     \frac{1}{\mpbh} = \int \frac{P(m)}{m} \rd m.
 \q 
-Furthermore, the present average number density of PBHs with mass $m$ in the 
-present total average number density of PBHs, $F(m)$, can be obtained by
-\cite{Liu:2019rnx}
+Then, we can obtain the average number density of PBHs with mass $m$ in the 
+total number density of PBHs, $F(m)$, by \citep{Liu:2019rnx}
 \e\label{Fm} 
     F(m) = P(m) \frac{\mpbh}{m}.
 \q 
 
-With the above definitions at hand, one can go directly to estimate the merger rate densities of PBH binaries contributed from different merger processes. We assume that PBHs are randomly distributed in the early Universe when they decouple from the cosmic background evolution \cite{Nakamura:1997sm,Sasaki:2016jop,Ali-Haimoud:2017rtz}. Due to gravitational interactions, two nearest PBHs would attract each other and form a bound system if they get the angular momentum from the torque of the third closest PBH. Because of gravitational radiations, PBH binaries would eventually merge and may be detected by \lvc. Let us consider the first-merger process now. Assuming PBHs posses a random distribution in the early Universe, the differential distribution, for three PBHs with masses $(m_i, m_i+dm_i)$, $(m_j, m_j+dm_j)$ and  $(m_l, m_l+dm_l)$, is given by \cite{Liu:2019rnx}
+We can now proceed to estimate the merger rate densities of PBH binaries by considering the merger history effect.
+
+We assume that PBHs are randomly distributed in the early Universe when they decouple from the cosmic background evolution \cite{Nakamura:1997sm,Sasaki:2016jop,Ali-Haimoud:2017rtz}. Due to gravitational interactions, two nearest PBHs would attract each other and form a bound system if they get the angular momentum from the torque of the third closest PBH. Because of gravitational radiations, PBH binaries would eventually merge and may be detected by \lvc. Let us consider the first-merger process now. Assuming PBHs posses a random distribution in the early Universe, the differential distribution, for three PBHs with masses $(m_i, m_i+dm_i)$, $(m_j, m_j+dm_j)$ and  $(m_l, m_l+dm_l)$, is given by \cite{Liu:2019rnx}
 \e\label{dP1}
 \begin{split} 
     dP_1 =& 16\pi^2 n_T^2 x^2 y^2 F(m_i) F(m_j) F(m_l) \\
