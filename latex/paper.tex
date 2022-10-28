@@ -105,43 +105,17 @@ urlcolor=blue           % url color
 \nc{\app}{\approx}
 \nc{\hf}{\frac{1}{2}}
 \nc{\discuss}{\textcolor{red}{Add discussion here!}}
-\nc{\red}[1]{\textcolor{red}{#1}}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%% only used in this paper %%%%%%%%%%%%%%%%%%%%%%%%%%%%
-% \nc{\mH}{\mathcal{H}}
-% \nc{\cs}{c_s^2}
-% \nc{\Sij}[1]{S_{ij}^{(#1)}}
-% \nc{\vi}[1]{v_i^{(#1)}}
-% \nc{\no}{\nonumber}
-% \def\<{\left\langle}
-% \def\>{\right\rangle}
-% \def\ap{\alpha}
-% \def\half{{1\over 2}}
-% \nc{\bk}{\bm{k}}
-% \nc{\bq}{\bm{q}}
-% \nc{\bp}{\bm{p}}
-% \nc{\bl}{\bm{l}}
-% \nc{\bx}{\bm{x}}
-% \nc{\be}{\mathbf{e}}
-% \nc{\mS}{\mathcal{S}}
-% \nc{\te}{\tilde{\eta}}
-% \nc{\tp}{\tilde{p}}
-% \nc{\tk}{\tilde{k}}
-% \nc{\tx}{\tilde{x}}
-% \nc{\tF}{\tilde{F}}
-% \nc{\tA}{\tilde{A}}
-% \nc{\mkpq}{|\bk-\bp-\bq|}
-% \nc{\mpq}{|\bp-\bq|}
-% \nc{\mkp}{|\bk-\bp|}
-% \nc{\mSi}[1]{\mS^{(#1)}({\bk, \eta})}
-% \nc{\vk}{\vec{k}}
-% \nc{\kstar}{k_*}
-% \nc{\xstar}{x_*}
 \nc{\mpbh}{m_{\rm{pbh}}}
 \nc{\cR}{\mathcal{R}}
 \nc{\mU}{{\mathcal{U}}}
 \nc{\Mc}{{M_\mathrm{c}}}
 \nc{\Mf}{{M_\mathrm{f}}}
+\nc{\red}[1]{\textcolor{red}{#1}}
+\nc{\yellow}[1]{\textcolor{yellow}{#1}}
+\nc{\green}[1]{\textcolor{green}{#1}}
+\nc{\blue}[1]{\textcolor{blue}{#1}}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% main text %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
@@ -212,7 +186,9 @@ Even accounting for the uncertainties in modelling, it still implies at least $m
 Therefore, the heavy event GW190521 greatly challenges the stellar evolution scenario of astrophysical black holes.
 
 Besides the astrophysical black holes, another possible explanation for the LVK BBHs is the primordial black holes (PBHs) \cite{Bird:2016dcv,Sasaki:2016jop,Chen:2018czv,Liu:2018ess,Chen:2021nxo}. 
-PBHs are black holes formed in the very early Universe through the gravitational collapse of the primordial density fluctuations \cite{Hawking:1971ei,Carr:1974nx}. The formation of PBHs would inevitably accompany the production of scalar-induced GWs \cite{Saito:2008jc,Yuan:2019udt,Yuan:2019wwo,Yuan:2019fwv,Chen:2019xse,DeLuca:2019ufz,Bartolo:2018rku,Bartolo:2018evs}. PBHs can also be natural candidates of cold dark matter. Recent studies \cite{Chen:2021nxo,Chen:2022fda} show that the BBHs from GWTC-3 are consistent with the PBH scenario, and the abundance of PBH in CDM, $\fpbh$, should be in the order of $\mathcal{O}(10^{-3})$ to explain LVK BBHs. In particular, the merger rate for GW190521 derived from the PBH model is consistent with that inferred by LVK, indicating that GW190521 can be a PBH binary \cite{DeLuca:2020sae,Chen:2021nxo}.
+PBHs are black holes formed in the very early Universe through the gravitational collapse of the primordial density fluctuations \cite{Hawking:1971ei,Carr:1974nx}. Recently, PBHs have attracted considerable attention \cite{Garcia-Bellido:2017mdw,Carr:2017jsz,Germani:2017bcs,Liu:2019rnx,Cai:2019elf,Cai:2019bmk,DeLuca:2020sae,Vaskonen:2020lbd,DeLuca:2020agl,Hutsi:2020sol,Sasaki:2018dmp,Carr:2020gox,Carr:2020xqk,Liu:2021jnw} because they can be not only the sources of LVK detections~\cite{Bird:2016dcv,Sasaki:2016jop}, but also candidates of cold dark matter (CDM) \cite{Carr:2016drx} and the seeds for galaxy formation~\cite{Bean:2002kx,Kawasaki:2012kn}. The formation of PBHs would inevitably accompany the production of scalar-induced GWs \cite{Saito:2008jc,Yuan:2019udt,Yuan:2019wwo,Yuan:2019fwv,Chen:2019xse,DeLuca:2019ufz,Bartolo:2018rku,Bartolo:2018evs}.
+%PBHs can also be natural candidates of cold dark matter (CDM). 
+Recent studies \cite{Chen:2021nxo,Chen:2022fda} show that the BBHs from GWTC-3 are consistent with the PBH scenario, and the abundance of PBH in CDM, $\fpbh$, should be in the order of $\mathcal{O}(10^{-3})$ to explain LVK BBHs. In particular, the merger rate for GW190521 derived from the PBH model is consistent with that inferred by LVK, indicating that GW190521 can be a PBH binary \cite{DeLuca:2020sae,Chen:2021nxo}.
 
 Accurately estimating the merger rate distribution of PBH binaries can be crucial to extract the PBH population parameters from GW data. Ref.~\cite{Liu:2019rnx} studies the multi-merger processes of PBH binaries and show that the merger history of PBH binaries may shift the mass distribution from light mass to heavy mass depending on the values of population parameters. Ref.~\cite{Wu:2020drm} then infers the population parameters of PBH binaries by accounting for the merger history effect using $10$ BBHs from GWTC-1, finding that the effect of merger history can be safely ignored when estimating the merger rate of PBH binaries. 
 In this work, we use the LVK recent released GWTC-3 data to constrain the effect of merger history on the merger rate of PBH binaries assuming all LVK BBHs are of primordial origin.
@@ -312,7 +288,7 @@ where $z$ is the cosmological redshift, $\theta\equiv\{z, m_1, m_2\}$, $\Ld$ is 
 		\hline\hline
 		\textbf{Parameter\quad} & \textbf{Description} & \textbf{Prior} \\
 		\hline
-		$\fpbh$ & Abundance of PBH in dark matter & log-$\mU(-4, 0)$\\
+		$\fpbh$ & Abundance of PBH in CDM & log-$\mU(-4, 0)$\\
 		\hline
 		\multicolumn{3}{c}{Lognormal PBH mass function} \\[1pt]
 		$\Mc$ & Central mass in $\Msun$. & $\mU(5, 50)$\\
@@ -387,7 +363,7 @@ F(m) = \frac{M_c}{\sqrt{2\pi} \s m^2} \exp \(-\frac{\s^2}{2}-\frac{\ln^2\(m/M_c\
 \q
 
 
-Using $69$ BBHs from GWTC-3 and performing the hierarchical Bayesian inference, we obtain $M_c = 17.3^{+2.2}_{-2.0} \Msun$, $\s = 0.71^{+0.10}_{-0.08}$, and $\fpbh = 1.8^{+0.3}_{-0.3} \times 10^{-3}$. In this work, we present results with median value and 90\% equal-tailed credible intervals. The posteriors for the hyper-parameters $\Ld = \{M_c, \s, \fpbh\}$ are shown in \Fig{posterior-log}. Note that we get a larger value of $M_c$ than that inferred from GWTC-1 in Ref.~\cite{Wu:2020drm} because GWTC-3 contains heavier BHs than those from GWTC-1. From \Eq{Rt}, we also infer the local merger rate as $R(t_0) = 41^{+16}_{-12} \gpcyr$. The results of local merger rate and abundance of PBHs are consistent with the previous estimations \cite{Chen:2018czv,Chen:2018rzo,Chen:2019irf,Wu:2020drm,Chen:2021nxo,Chen:2022fda}, confirming that CDM cannot be dominated by the stellar-mass PBHs.
+Using $69$ BBHs from GWTC-3 and performing the hierarchical Bayesian inference, we obtain $M_c = 17.3^{+2.2}_{-2.0} \Msun$, $\s = 0.71^{+0.10}_{-0.08}$, and $\fpbh = 1.8^{+0.3}_{-0.3} \times 10^{-3}$. In this work, we present results with median value and 90\% equal-tailed credible intervals. The posteriors for the hyper-parameters $\Ld = \{M_c, \s, \fpbh\}$ are shown in \Fig{posterior-log}. Note that we get a larger value of $M_c$ than that inferred from GWTC-1 in Ref.~\cite{Wu:2020drm} because GWTC-3 contains heavier BHs than those from GWTC-1. From \Eq{Rt}, we also infer the local merger rate as $R(t_0) = 41^{+16}_{-12} \gpcyr$. The results of local merger rate and abundance of PBHs are consistent with the previous estimations \cite{Sasaki:2016jop,Ali-Haimoud:2017rtz,Chen:2018czv,Chen:2018rzo,Chen:2019irf,Wu:2020drm,Chen:2021nxo,Chen:2022fda}, confirming that CDM cannot be dominated by the stellar-mass PBHs.
 
 \begin{figure}[tbp!]
 	\centering
@@ -423,7 +399,7 @@ F(m) = \frac{\al}{m} \(\frac{m}{\Mmin}\)^{-\al}.
 	\caption{\label{posterior-power}The marginalized one- and two-dimensional posterior distributions for hyper-parameters $\{\Mmin, \al, \fpbh\}$ in the power-law mass function inferred from GWTC-3. The blue color denotes the results from the first merger only, while the orange denotes the results from both the first and second mergers. The contours represent the $1\sigma$, $2\sigma$ and $3\sigma$ credible regions, respectively.}
 \end{figure}
 
-Using $69$ BBHs from GWTC-3 and performing the hierarchical Bayesian inference, we obtain $\Mmin = 6.5^{+0.3}_{-0.8} \Msun$, $\al = 1.9^{+0.2}_{-0.2}$, and $\fpbh = 2.3^{+0.3}_{-0.3} \times 10^{-3}$. The posteriors for the hyper-parameters $\Ld = \{\Mmin, \al, \fpbh\}$ are shown in \Fig{posterior-power}. Note that we get a smaller value of $\al$ than that inferred from GWTC-1 in Ref.~\cite{Wu:2020drm} because GWTC-3 contains heavier BHs than those from GWTC-1. From \Eq{Rt}, we also infer the local merger rate as $R(t_0) = 48^{+15}_{-12} \gpcyr$. The results of local merger rate and abundance of PBHs are consistent with the previous estimations \cite{Chen:2018czv,Chen:2018rzo,Chen:2019irf,Wu:2020drm,Chen:2021nxo,Chen:2022fda}, confirming that CDM cannot be dominated by the stellar-mass PBHs.
+Using $69$ BBHs from GWTC-3 and performing the hierarchical Bayesian inference, we obtain $\Mmin = 6.5^{+0.3}_{-0.8} \Msun$, $\al = 1.9^{+0.2}_{-0.2}$, and $\fpbh = 2.3^{+0.3}_{-0.3} \times 10^{-3}$. The posteriors for the hyper-parameters $\Ld = \{\Mmin, \al, \fpbh\}$ are shown in \Fig{posterior-power}. Note that we get a smaller value of $\al$ than that inferred from GWTC-1 in Ref.~\cite{Wu:2020drm} because GWTC-3 contains heavier BHs than those from GWTC-1. From \Eq{Rt}, we also infer the local merger rate as $R(t_0) = 48^{+15}_{-12} \gpcyr$. The results of local merger rate and abundance of PBHs are consistent with the previous estimations \cite{Sasaki:2016jop,Ali-Haimoud:2017rtz,Chen:2018czv,Chen:2018rzo,Chen:2019irf,Wu:2020drm,Chen:2021nxo,Chen:2022fda}, confirming that CDM cannot be dominated by the stellar-mass PBHs.
 
 \begin{figure}[htbp!]
 	\centering
@@ -455,7 +431,7 @@ F(m) = \frac{\al_1 \al_2}{\al_1 + \al_2} \begin{cases} (\frac{m}{m_*})^{\alpha_1
 	\caption{\label{posterior-bpower}The marginalized one- and two-dimensional posterior distributions for hyper-parameters $\{m_*, \al_1, \al_2, \fpbh\}$ in the broken power-law mass function inferred from GWTC-3. The blue color denotes the results from the first merger only, while the orange denotes the results from both the first and second mergers. The contours represent the $1\sigma$, $2\sigma$ and $3\sigma$ credible regions, respectively.}
 \end{figure}
 
-Using $69$ BBHs from GWTC-3 and performing the hierarchical Bayesian inference, we obtain $m_* = 8.6^{+2.1}_{-1.3} \Msun$, $\al_1 = 5.6^{+7.1}_{-3.8}$, $\al_2 = 2.0^{+0.2}_{-0.2}$, and $\fpbh = 2.2^{+0.3}_{-0.4} \times 10^{-3}$. The posteriors for the hyper-parameters $\Ld = \{m_*, \al_1, \al_2, \fpbh\}$ are shown in \Fig{posterior-bpower}. From \Eq{Rt}, we also infer the local merger rate as $R(t_0) = 46^{+15}_{-11} \gpcyr$. The results of local merger rate and abundance of PBHs are consistent with the previous estimations \cite{Chen:2018czv,Chen:2018rzo,Chen:2019irf,Wu:2020drm,Chen:2021nxo,Chen:2022fda}, confirming that CDM cannot be dominated by the stellar-mass PBHs. Note that Ref.~\cite{Deng:2021ezy} obtains quite different results for the broken power-law mass function using GWTC-2 data without accounting for the uncertainties in the measurement of $\vth$. Moreover, Ref.~\cite{Deng:2021ezy} deals with the selection effect of the GW detectors improperly. We emphasize that our results are more robust because we have a comprehensive treatment of the selection effect and measurement uncertainties. Nevertheless, as expected, our results of the broken power-law mass function are fully consistent with the results of the power-law case.
+Using $69$ BBHs from GWTC-3 and performing the hierarchical Bayesian inference, we obtain $m_* = 8.6^{+2.1}_{-1.3} \Msun$, $\al_1 = 5.6^{+7.1}_{-3.8}$, $\al_2 = 2.0^{+0.2}_{-0.2}$, and $\fpbh = 2.2^{+0.3}_{-0.4} \times 10^{-3}$. The posteriors for the hyper-parameters $\Ld = \{m_*, \al_1, \al_2, \fpbh\}$ are shown in \Fig{posterior-bpower}. From \Eq{Rt}, we also infer the local merger rate as $R(t_0) = 46^{+15}_{-11} \gpcyr$. The results of local merger rate and abundance of PBHs are consistent with the previous estimations \cite{Sasaki:2016jop,Ali-Haimoud:2017rtz,Chen:2018czv,Chen:2018rzo,Chen:2019irf,Wu:2020drm,Chen:2021nxo,Chen:2022fda}, confirming that CDM cannot be dominated by the stellar-mass PBHs. Note that Ref.~\cite{Deng:2021ezy} obtains quite different results for the broken power-law mass function using GWTC-2 data without accounting for the uncertainties in the measurement of $\vth$. Moreover, Ref.~\cite{Deng:2021ezy} deals with the selection effect of the GW detectors improperly. We emphasize that our results are more robust because we have a comprehensive treatment of the selection effect and measurement uncertainties. Nevertheless, as expected, our results of the broken power-law mass function are fully consistent with the results of the power-law case.
 
 \begin{figure}[tbp!]
 	\centering
@@ -492,7 +468,7 @@ F(m) = \al \Mf^{-\al} m^{\al -1} \exp\(-(m/\Mf)^{\al}\).
 \end{figure}
 
 
-Using $69$ BBHs from GWTC-3 and performing the hierarchical Bayesian inference, we obtain $\Mf = 10.8^{+3.7}_{-3.6} \Msun$, $\al = 1.0^{+0.2}_{-0.2}$, and $\fpbh = 1.5^{+0.2}_{-0.2} \times 10^{-3}$. The posteriors for the hyper-parameters $\Ld = \{\Mf, \al, \fpbh\}$ are shown in \Fig{posterior-CC}. From \Eq{Rt}, we also infer the local merger rate as $R(t_0) = 49^{+26}_{-16} \gpcyr$. The results of local merger rate and abundance of PBHs are consistent with the previous estimations \cite{Chen:2018czv,Chen:2018rzo,Chen:2019irf,Wu:2020drm,Chen:2021nxo,Chen:2022fda}, confirming that CDM cannot be dominated by the stellar-mass PBHs. 
+Using $69$ BBHs from GWTC-3 and performing the hierarchical Bayesian inference, we obtain $\Mf = 10.8^{+3.7}_{-3.6} \Msun$, $\al = 1.0^{+0.2}_{-0.2}$, and $\fpbh = 1.5^{+0.2}_{-0.2} \times 10^{-3}$. The posteriors for the hyper-parameters $\Ld = \{\Mf, \al, \fpbh\}$ are shown in \Fig{posterior-CC}. From \Eq{Rt}, we also infer the local merger rate as $R(t_0) = 49^{+26}_{-16} \gpcyr$. The results of local merger rate and abundance of PBHs are consistent with the previous estimations \cite{Sasaki:2016jop,Ali-Haimoud:2017rtz,Chen:2018czv,Chen:2018rzo,Chen:2019irf,Wu:2020drm,Chen:2021nxo,Chen:2022fda}, confirming that CDM cannot be dominated by the stellar-mass PBHs. 
 
 
 \begin{figure}[tbp!]
@@ -514,7 +490,7 @@ It can be seen that the contribution of the merger rate from the second merger t
 Therefore, the merger history of PBH binaries has a subdominant effect, and this effect can be neglected when evaluating the merger rate of PBH binaries.
 It can also be seen that the Bayes factors for the model with a second merger versus the model with only the first merger, $\mathrm{BF}^{\mathrm{2nd}}_{\mathrm{1st}}$, are all smaller than $3$, indicating the evidence for the second merger is ``not worth more than a bare mention" \cite{BF}. In this sense, the Bayes factors also imply that the effect of merger history can be ignored.
 
-Furthermore, for all four mass functions, we infer the abundance of PBH in cold dark matter, $\fpbh$, to be at the order of $\mathcal{O}(10^{-3})$. The results of local merger rate and abundance of PBHs are consistent with the previous estimations \cite{Sasaki:2016jop,Ali-Haimoud:2017rtz,Chen:2018czv,Chen:2018rzo,Chen:2019irf,Wu:2020drm,Chen:2021nxo,Chen:2022fda}, confirming that CDM cannot be dominated by the stellar-mass PBHs. 
+Furthermore, for all four mass functions, we infer the abundance of PBH in CDM, $\fpbh$, to be at the order of $\mathcal{O}(10^{-3})$. The results of local merger rate and abundance of PBHs are consistent with the previous estimations \cite{Sasaki:2016jop,Ali-Haimoud:2017rtz,Chen:2018czv,Chen:2018rzo,Chen:2019irf,Wu:2020drm,Chen:2021nxo,Chen:2022fda}, confirming that CDM cannot be dominated by the stellar-mass PBHs. 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \begin{table}[tbp!]
@@ -529,7 +505,7 @@ Furthermore, for all four mass functions, we infer the abundance of PBH in cold 
 		$10^{2}R_2/R_1$ & $1.0^{+0.2}_{-0.1}$ & $0.9^{+0.1}_{-0.1}$ & $0.9^{+0.3}_{-0.1}$ & $2.2^{+1.3}_{-0.5}$ \\
 		\hline
 	\end{tabular}
-	\caption{\label{table:BF}Summary of the key results for the log-normal (LN), power-law (PL), broken power-law (BPL), and critical collapse (CC) mass functions. The first row, $\mathrm{BF}^{\mathrm{2nd}}_{\mathrm{1st}}$, shows the Bayes factors for the model with 2nd merger versus the model with only 1st merger; the second row, $\mathrm{BF}_{\mathrm{PL}}$, shows the Bayes factors for the model with different PBH mass function versus the model with the power-law PBH mass function by accounting for the second merger effect; the third row, $\fpbh$, shows the abundance of PBH in dark matter inferred from different models by accounting for the second merger effect; the last row, $R_2/R_1$, shows the merger rate ratio between the second merger and the first merger.}
+	\caption{\label{table:BF}Summary of the key results for the log-normal (LN), power-law (PL), broken power-law (BPL), and critical collapse (CC) mass functions. The first row, $\mathrm{BF}^{\mathrm{2nd}}_{\mathrm{1st}}$, shows the Bayes factors for the model with 2nd merger versus the model with only 1st merger; the second row, $\mathrm{BF}_{\mathrm{PL}}$, shows the Bayes factors for the model with different PBH mass function versus the model with the power-law PBH mass function by accounting for the second merger effect; the third row, $\fpbh$, shows the abundance of PBH in CDM inferred from different models by accounting for the second merger effect; the last row, $R_2/R_1$, shows the merger rate ratio between the second merger and the first merger.}
 \end{table}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
