@@ -207,7 +207,7 @@ namely the log-normal, power-law, broken power-law, and critical collapse forms,
 \section{Introduction}
 
 The successful detection of gravitational waves (GWs) from compact binary coalescences \cite{LIGOScientific:2018mvr,LIGOScientific:2020ibl,LIGOScientific:2021djp} has led us into a new era of GW astronomy.
-According to the recently released third GW Transient Catalog (GWTC-3) \cite{LIGOScientific:2021djp} by LIGO-Virgo-KAGRA (LVK) Collaboration, there are $90$ GW events detected during the first three observing runs. Most of these events are categorized as binary black hole (BBH) mergers, and the BBHs detected by LVK have a broad mass distribution. The heaviest event, GW190521 \cite{LIGOScientific:2020iuh}, has component masses $m_1 = 85^{+21}_{-14}\Msun$ and $m_2 = 66^{+17}_{-18}\Msun$. Both masses lie within upper black hole mass gap originated from pulsation pair-instability supernovae \cite{Marchant_2019}, and current modelling places the lower cutoff of the mass gap at $\sim 50\pm 4\Msun$ \cite{belczynski2016effect,Marchant_2019,Farmer_2019,Farmer:2020xne,Marchant:2020haw}.
+According to the recently released third GW Transient Catalog (GWTC-3) \cite{LIGOScientific:2021djp} by LIGO-Virgo-KAGRA (LVK) Collaboration, there are $90$ GW events detected during the first three observing runs. Most of these events are categorized as binary black hole (BBH) mergers, and the BBHs detected by LVK have a broad mass distribution. The heaviest event, GW190521 \cite{LIGOScientific:2020iuh}, has component masses $m_1 = 85^{+21}_{-14}\Msun$ and $m_2 = 66^{+17}_{-18}\Msun$. Both masses lie within upper black hole mass gap originated from pulsation pair-instability supernovae \cite{Marchant_2019}, and current modelling places the lower cutoff of the mass gap at $\sim 50\pm 4\Msun$ \cite{Belczynski:2016jno,Marchant_2019,Farmer_2019,Farmer:2020xne,Marchant:2020haw}.
 Even accounting for the uncertainties in modelling, it still implies at least $m_1$ is well within the mass gap and cannot originate directly from a stellar progenitor \cite{Anagnostou:2020umw}.
 Therefore, the heavy event GW190521 greatly challenges the stellar evolution scenario of astrophysical black holes.
 
@@ -371,7 +371,7 @@ Based on the hierarchical statistical framework, we do the parameter estimations
 	\caption{\label{posterior-log}The marginalized one- and two-dimensional posterior distributions for hyper-parameters $\{M_c, \s, \fpbh\}$ in the log-normal mass function inferred from GWTC-3. The blue color denotes the results from the first merger only, while the orange denotes the results from both the first and second mergers. The contours represent the $1\sigma$, $2\sigma$ and $3\sigma$ credible regions, respectively.}
 \end{figure}
 
-We first consider a PBH mass function with the log-normal form \cite{Dolgov:1992pu} of
+We first consider a PBH mass function with the log-normal form of \cite{Dolgov:1992pu}
 \e\label{log}
 P(m) = \frac{1}{\sqrt{2\pi} \s m} \exp \(-\frac{\ln^2\(m/M_c\)}{2\s^2}\),
 \q
@@ -387,7 +387,7 @@ F(m) = \frac{M_c}{\sqrt{2\pi} \s m^2} \exp \(-\frac{\s^2}{2}-\frac{\ln^2\(m/M_c\
 \q
 
 
-Using $69$ BBHs from GWTC-3 and performing the hierarchical Bayesian inference, we obtain $M_c = 17.3^{+2.2}_{-2.0} \Msun$, $\s = 0.71^{+0.10}_{-0.08}$, and $\fpbh = 1.8^{+0.3}_{-0.3} \times 10^{-3}$. In this work, we present results with median value and 90\% equal-tailed credible intervals. The posteriors for the hyper-parameters $\Ld = \{M_c, \s, \fpbh\}$ are shown in \Fig{posterior-log}. Note that we get a larger value of $M_c$ than that inferred from GWTC-1 in \cite{Wu:2020drm} because GWTC-3 contains heavier BHs than those from GWTC-1. From \Eq{Rt}, we also infer the local merger rate as $R(t_0) = 41^{+16}_{-12} \gpcyr$. The results of local merger rate and abundance of PBHs are consistent with the previous estimations \cite{Chen:2018czv,Chen:2018rzo,Chen:2019irf,Wu:2020drm,Chen:2021nxo,Chen:2022fda}, confirming that CDM cannot be dominated by the stellar-mass PBHs.
+Using $69$ BBHs from GWTC-3 and performing the hierarchical Bayesian inference, we obtain $M_c = 17.3^{+2.2}_{-2.0} \Msun$, $\s = 0.71^{+0.10}_{-0.08}$, and $\fpbh = 1.8^{+0.3}_{-0.3} \times 10^{-3}$. In this work, we present results with median value and 90\% equal-tailed credible intervals. The posteriors for the hyper-parameters $\Ld = \{M_c, \s, \fpbh\}$ are shown in \Fig{posterior-log}. Note that we get a larger value of $M_c$ than that inferred from GWTC-1 in Ref.~\cite{Wu:2020drm} because GWTC-3 contains heavier BHs than those from GWTC-1. From \Eq{Rt}, we also infer the local merger rate as $R(t_0) = 41^{+16}_{-12} \gpcyr$. The results of local merger rate and abundance of PBHs are consistent with the previous estimations \cite{Chen:2018czv,Chen:2018rzo,Chen:2019irf,Wu:2020drm,Chen:2021nxo,Chen:2022fda}, confirming that CDM cannot be dominated by the stellar-mass PBHs.
 
 \begin{figure}[tbp!]
 	\centering
@@ -402,7 +402,7 @@ In \Fig{ratio-log}, we show the ratio of merger rate density from second merger 
 \subsection{Power-law mass function}
 
 
-We next consider a PBH mass function with the power-law form \cite{Carr:1975qj} of
+We next consider a PBH mass function with the power-law form of \cite{Carr:1975qj}
 \e\label{power} 
 P(m) = \frac{\al-1}{\Mmin} \(\frac{m}{\Mmin}\)^{-\al},
 \q
@@ -423,7 +423,7 @@ F(m) = \frac{\al}{m} \(\frac{m}{\Mmin}\)^{-\al}.
 	\caption{\label{posterior-power}The marginalized one- and two-dimensional posterior distributions for hyper-parameters $\{\Mmin, \al, \fpbh\}$ in the power-law mass function inferred from GWTC-3. The blue color denotes the results from the first merger only, while the orange denotes the results from both the first and second mergers. The contours represent the $1\sigma$, $2\sigma$ and $3\sigma$ credible regions, respectively.}
 \end{figure}
 
-Using $69$ BBHs from GWTC-3 and performing the hierarchical Bayesian inference, we obtain $\Mmin = 6.5^{+0.3}_{-0.8} \Msun$, $\al = 1.9^{+0.2}_{-0.2}$, and $\fpbh = 2.3^{+0.3}_{-0.3} \times 10^{-3}$. The posteriors for the hyper-parameters $\Ld = \{\Mmin, \al, \fpbh\}$ are shown in \Fig{posterior-power}. Note that we get a smaller value of $\al$ than that inferred from GWTC-1 in \cite{Wu:2020drm} because GWTC-3 contains heavier BHs than those from GWTC-1. From \Eq{Rt}, we also infer the local merger rate as $R(t_0) = 48^{+15}_{-12} \gpcyr$. The results of local merger rate and abundance of PBHs are consistent with the previous estimations \cite{Chen:2018czv,Chen:2018rzo,Chen:2019irf,Wu:2020drm,Chen:2021nxo,Chen:2022fda}, confirming that CDM cannot be dominated by the stellar-mass PBHs.
+Using $69$ BBHs from GWTC-3 and performing the hierarchical Bayesian inference, we obtain $\Mmin = 6.5^{+0.3}_{-0.8} \Msun$, $\al = 1.9^{+0.2}_{-0.2}$, and $\fpbh = 2.3^{+0.3}_{-0.3} \times 10^{-3}$. The posteriors for the hyper-parameters $\Ld = \{\Mmin, \al, \fpbh\}$ are shown in \Fig{posterior-power}. Note that we get a smaller value of $\al$ than that inferred from GWTC-1 in Ref.~\cite{Wu:2020drm} because GWTC-3 contains heavier BHs than those from GWTC-1. From \Eq{Rt}, we also infer the local merger rate as $R(t_0) = 48^{+15}_{-12} \gpcyr$. The results of local merger rate and abundance of PBHs are consistent with the previous estimations \cite{Chen:2018czv,Chen:2018rzo,Chen:2019irf,Wu:2020drm,Chen:2021nxo,Chen:2022fda}, confirming that CDM cannot be dominated by the stellar-mass PBHs.
 
 \begin{figure}[htbp!]
 	\centering
@@ -435,7 +435,7 @@ In \Fig{ratio-power}, we show the ratio of merger rate density from second merge
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \subsection{Broken power-law mass function}
-We then consider a PBH mass function with the broken power-law form \cite{Deng:2021ezy} of
+We then consider a PBH mass function with the broken power-law form of \cite{Deng:2021ezy}
 \begin{equation}
 	P(m)= \left(\frac{m_*}{\alpha_1+1}-\frac{m_*}{\alpha_2-1}\right)^{-1} \begin{cases} (\frac{m}{m_*})^{\alpha_1}, & m<m_* \\ (\frac{m}{m_*})^{-\alpha_2}, & m>m_*\end{cases},
 \end{equation}
@@ -455,7 +455,7 @@ F(m) = \frac{\al_1 \al_2}{\al_1 + \al_2} \begin{cases} (\frac{m}{m_*})^{\alpha_1
 	\caption{\label{posterior-bpower}The marginalized one- and two-dimensional posterior distributions for hyper-parameters $\{m_*, \al_1, \al_2, \fpbh\}$ in the broken power-law mass function inferred from GWTC-3. The blue color denotes the results from the first merger only, while the orange denotes the results from both the first and second mergers. The contours represent the $1\sigma$, $2\sigma$ and $3\sigma$ credible regions, respectively.}
 \end{figure}
 
-Using $69$ BBHs from GWTC-3 and performing the hierarchical Bayesian inference, we obtain $m_* = 8.6^{+2.1}_{-1.3} \Msun$, $\al_1 = 5.6^{+7.1}_{-3.8}$, $\al_2 = 2.0^{+0.2}_{-0.2}$, and $\fpbh = 2.2^{+0.3}_{-0.4} \times 10^{-3}$. The posteriors for the hyper-parameters $\Ld = \{m_*, \al_1, \al_2, \fpbh\}$ are shown in \Fig{posterior-bpower}. From \Eq{Rt}, we also infer the local merger rate as $R(t_0) = 46^{+15}_{-11} \gpcyr$. The results of local merger rate and abundance of PBHs are consistent with the previous estimations \cite{Chen:2018czv,Chen:2018rzo,Chen:2019irf,Wu:2020drm,Chen:2021nxo,Chen:2022fda}, confirming that CDM cannot be dominated by the stellar-mass PBHs. Note that \cite{Deng:2021ezy} obtains quite different results for the broken power-law mass function using GWTC-2 data without accounting for the uncertainties in the measurement of $\vth$. Moreover, \cite{Deng:2021ezy} deals with the selection effect of the GW detectors improperly. We emphasize that our results are more robust because we have a comprehensive treatment of the selection effect and measurement uncertainties. Nevertheless, as expected, our results of the broken power-law mass function are fully consistent with the results of the power-law case.
+Using $69$ BBHs from GWTC-3 and performing the hierarchical Bayesian inference, we obtain $m_* = 8.6^{+2.1}_{-1.3} \Msun$, $\al_1 = 5.6^{+7.1}_{-3.8}$, $\al_2 = 2.0^{+0.2}_{-0.2}$, and $\fpbh = 2.2^{+0.3}_{-0.4} \times 10^{-3}$. The posteriors for the hyper-parameters $\Ld = \{m_*, \al_1, \al_2, \fpbh\}$ are shown in \Fig{posterior-bpower}. From \Eq{Rt}, we also infer the local merger rate as $R(t_0) = 46^{+15}_{-11} \gpcyr$. The results of local merger rate and abundance of PBHs are consistent with the previous estimations \cite{Chen:2018czv,Chen:2018rzo,Chen:2019irf,Wu:2020drm,Chen:2021nxo,Chen:2022fda}, confirming that CDM cannot be dominated by the stellar-mass PBHs. Note that Ref.~\cite{Deng:2021ezy} obtains quite different results for the broken power-law mass function using GWTC-2 data without accounting for the uncertainties in the measurement of $\vth$. Moreover, Ref.~\cite{Deng:2021ezy} deals with the selection effect of the GW detectors improperly. We emphasize that our results are more robust because we have a comprehensive treatment of the selection effect and measurement uncertainties. Nevertheless, as expected, our results of the broken power-law mass function are fully consistent with the results of the power-law case.
 
 \begin{figure}[tbp!]
 	\centering
@@ -469,7 +469,7 @@ In \Fig{ratio-bpower}, we show the ratio of merger rate density from second merg
 \subsection{Critical collapse mass function}
 
 
-We last consider a PBH mass function with the critical collapse form \cite{Niemeyer:1997mt,Yokoyama:1998xd,Carr:2016hva,Gow:2020cou} of
+We last consider a PBH mass function with the critical collapse form of \cite{Niemeyer:1997mt,Yokoyama:1998xd,Carr:2016hva,Gow:2020cou}
 \e
 P(m)=\frac{\alpha^2\,  m^\alpha}{\Mf^{1+\alpha}\, \Gamma(1 / \alpha)} \exp \left(-(m/\Mf)^{\alpha}\right),
 \q
@@ -534,7 +534,7 @@ Furthermore, for all four mass functions, we infer the abundance of PBH in cold 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 We also compute the Bayes factors between the models with different PBH mass functions. The Bayes factors $\mathrm{BF}_{\mathrm{PL}}$ are estimated by taking the model with the power-law mass function as the fiducial model. 
-We find that $\mathrm{BF}_{\mathrm{PL}}^{\mathrm{LG}}$ has the largest value, indicating that the log-normal mass function can best fit GWTC-3 among the four mass functions considered in this work. Our findings contradict the results from \cite{Deng:2021ezy} claiming that the broken power-law mass function can fit better than the log-normal form. There are some drawbacks from analyses in \cite{Deng:2021ezy}. Firstly, \cite{Deng:2021ezy} neglects the uncertainties in measuring each event's masses and completely ignores the redshift evolution of the merger rate. Secondly, \cite{Deng:2021ezy} deals with the selection effect of GW detectors improperly. In this sense, we disagree with \cite{Deng:2021ezy} and conclude that the most frequently used log-normal mass function can fit GWTC-3 best among the four mass functions.
+We find that $\mathrm{BF}_{\mathrm{PL}}^{\mathrm{LG}}$ has the largest value, indicating that the log-normal mass function can best fit GWTC-3 among the four mass functions considered in this work. Our findings contradict the results from Ref.~\cite{Deng:2021ezy} claiming that the broken power-law mass function can fit better than the log-normal form. There are some drawbacks from analyses in Ref.~\cite{Deng:2021ezy}. Firstly, Ref.~\cite{Deng:2021ezy} neglects the uncertainties in measuring each event's masses and completely ignores the redshift evolution of the merger rate. Secondly, Ref.~\cite{Deng:2021ezy} deals with the selection effect of GW detectors improperly. In this sense, we disagree with Ref.~\cite{Deng:2021ezy} and conclude that the most frequently used log-normal mass function can fit GWTC-3 best among the four mass functions.
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
