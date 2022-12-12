@@ -1,12 +1,7 @@
-using Trapz, MathLink, SpecialFunctions
+using Trapz, SpecialFunctions
 
 const m_min = 1e-1
 const m_max = 1e3
-
-# # using beta function from mathematica
-# beta0 = W"Beta"(W"z", W"a", W"b")
-# beta(z, a, b) = weval(beta0; z=z, a=a, b=b)
-
 
 # log-normal mass function 
 function mergerRateDensity1st0_log(mc, σc, log_fpbh, i, j)
@@ -80,7 +75,6 @@ mergerRateDensity2nd_power(α, M, log_fpbh, i, j) = mergerRateDensity2nd0_power.
 
 
 # critical collapse
-
 function mergerRateDensity1st0_CC(α, Mf, log_fpbh, i, j)
     fpbh = 10^log_fpbh
     t1 = (i * j)^(-34 / 37) * 1.32e6 * exp(-(i / Mf)^α - (j / Mf)^α) * i^α * j^α * (i + j)^(36 / 37) * Mf^(-(21 / 37) - 2 * α) * α^2

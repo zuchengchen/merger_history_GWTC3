@@ -409,7 +409,7 @@ In \Fig{ratio-power}, we show the ratio of merger rate density from second merge
 \subsection{Broken power-law mass function}
 We then consider a PBH mass function with the broken power-law form of \cite{Deng:2021ezy}
 \begin{equation}
-	P(m)= \left(\frac{m_*}{\alpha_1+1}-\frac{m_*}{\alpha_2-1}\right)^{-1} \begin{cases} (\frac{m}{m_*})^{\alpha_1}, & m<m_* \\ (\frac{m}{m_*})^{-\alpha_2}, & m>m_*\end{cases},
+	P(m)= \left(\frac{m_*}{\alpha_1+1} + \frac{m_*}{\alpha_2-1}\right)^{-1} \begin{cases} (\frac{m}{m_*})^{\alpha_1}, & m<m_* \\ (\frac{m}{m_*})^{-\alpha_2}, & m>m_*\end{cases},
 \end{equation}
 where $m_*$ is the peak mass of $m P(m)$. Here $\al_1>0$ and $\al_2>1$ are two power-law indices. The broken power-law mass function is a generalization of the power-law form. It can be achieved if PBHs are formed by vacuum bubbles that nucleate during inflation via quantum tunneling \cite{Deng:2021ezy}.
 The hyper-parameters are $\Ld = \{m_*, \al_1, \al_2, \fpbh\}$ in this case. 
@@ -418,7 +418,7 @@ We can then derive the averaged PBH mass and averaged number density from \Eq{mp
 \mpbh = \frac{\al_1 \al_2}{\(\al_1 +1\)\(\al_2 -1\)} m_*,
 \q
 \e 
-F(m) = \frac{\al_1 \al_2}{\al_1 + \al_2} \begin{cases} (\frac{m}{m_*})^{\alpha_1}, & m<m_* \\ (\frac{m}{m_*})^{-\alpha_2}, & m>m_*\end{cases}.
+F(m) = \frac{\al_1 \al_2}{m(\al_1 + \al_2)} \begin{cases} (\frac{m}{m_*})^{\alpha_1}, & m<m_* \\ (\frac{m}{m_*})^{-\alpha_2}, & m>m_*\end{cases}.
 \q
 
 \begin{figure}[tbp!]
@@ -514,7 +514,7 @@ We find that $\mathrm{BF}_{\mathrm{PL}}^{\mathrm{LG}}$ has the largest value, in
 %\section*{acknowledgments}
 \begin{acknowledgments}
 % We thank the referee for providing constructive comments and suggestions to improve the quality of this paper. 
-We would also like to thank Xingjiang Zhu, Xiao-Jin Liu, Shen-Shi Du, and Zhu Yi for useful discussions.
+We thank Heling Deng for the discussion on the broken power-law mass function, and also Xingjiang Zhu, Xiao-Jin Liu, Shen-Shi Du, and Zhu Yi for useful conversations.
 Z.-C.C. is supported by the China Postdoctoral Science Foundation Fellowship No.~2022M710429.
 This research has made use of data, software and/or web tools obtained from the Gravitational Wave Open Science Center (\url{https://www.gw-openscience.org/}), a service of LIGO Laboratory, the LIGO Scientific Collaboration, the Virgo Collaboration, and the KAGRA Collaboration. 
 LIGO Laboratory and Advanced LIGO are funded by the United States National Science Foundation (NSF) as well as the Science and Technology Facilities Council (STFC) of the United Kingdom, the Max-Planck-Society (MPS), and the State of Niedersachsen/Germany for support of the construction of Advanced LIGO and construction and operation of the GEO600 detector. Additional support for Advanced LIGO was provided by the Australian Research Council. Virgo is funded, through the European Gravitational Observatory (EGO), by the French Centre National de Recherche Scientifique (CNRS), the Italian Istituto Nazionale di Fisica Nucleare (INFN) and the Dutch Nikhef, with contributions by institutions from Belgium, Germany, Greece, Hungary, Ireland, Japan, Monaco, Poland, Portugal, Spain. The construction and operation of KAGRA are funded by Ministry of Education, Culture, Sports, Science and Technology (MEXT), and Japan Society for the Promotion of Science (JSPS), National Research Foundation (NRF) and Ministry of Science and ICT (MSIT) in Korea, Academia Sinica (AS) and the Ministry of Science and Technology (MoST) in Taiwan.
